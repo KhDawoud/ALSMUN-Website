@@ -6,41 +6,50 @@
 
 <script lang="ts">
     import { navigate } from 'svelte-routing'
-    import LoginBackground from 'C:/Users/Admin/Desktop/MUN Website/frontend/src/assets/LoginBackground.jpg'
+    import LoginBackground from 'C:/Users/Admin/Desktop/MUN Website/frontend/src/assets/LoginBackground5.jpg'
     let username: string;
     let password: string;
+    let isLoading: boolean;
 
     const handleSubmit = () => {
-        navigate('/home')
+        isLoading = true;
+        setTimeout(() => {
+            isLoading = false;
+            navigate('/home');
+        }, 1000);
     };
 </script>
 
 <div class="bg-cover bg-no-repeat bg-center" style="background-image: url('{LoginBackground}');">
       <div class="flex min-h-screen justify-center items-center align-middle">
         <div class="bg-white rounded-2xl w-full lg:w-1/3 md:w-2/3 h-[30rem] m-7 mt-8 p-12 shadow-2xl">
-            <h1 class="text-center font-semibold text-4xl"> Login </h1>
-            <form class="mt-10" on:submit|preventDefault={handleSubmit}>
-                <div class="relative">
-                    <input bind:value={username} type="text" class="bg-yellow-200 py-3 px-4 pl-12 block w-full h-12 border-gray-200 shadow-md rounded-lg text-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500" placeholder="Username">
-                    <div class="absolute inset-y-0 left-0 flex items-center pointer-events-none z-20 pl-4">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
-                            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                            <style>svg{fill:#c0c0c0;}</style>
-                            <path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/>
-                        </svg>
+            {#if isLoading}
+                <h1>Loading...</h1>
+            {:else}
+                <h1 class="text-center font-semibold text-4xl"> Login </h1>
+                <form class="mt-10" on:submit|preventDefault={handleSubmit}>
+                    <div class="relative">
+                        <input bind:value={username} type="text" class="bg-yellow-200 py-3 px-4 pl-12 block w-full h-12 border-gray-200 shadow-md rounded-lg text-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500" placeholder="Username">
+                        <div class="absolute inset-y-0 left-0 flex items-center pointer-events-none z-20 pl-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <style>svg{fill:#c0c0c0;}</style>
+                                <path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/>
+                            </svg>
+                        </div>
                     </div>
-                </div>
-                <div class="relative mt-6">
-                    <input bind:value={password} type="password" class="bg-yellow-200 py-3 px-4 pl-12 block w-full h-12 border-gray-200 shadow-md rounded-lg text-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500" placeholder="Password">
-                    <div class="absolute inset-y-0 left-0 flex items-center pointer-events-none z-20 pl-4">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
-                            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                            <style>svg{fill:#c0c0c0}</style>
-                            <path d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z"/>
-                        </svg>
+                    <div class="relative mt-6">
+                        <input bind:value={password} type="password" class="bg-yellow-200 py-3 px-4 pl-12 block w-full h-12 border-gray-200 shadow-md rounded-lg text-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500" placeholder="Password">
+                        <div class="absolute inset-y-0 left-0 flex items-center pointer-events-none z-20 pl-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <style>svg{fill:#c0c0c0}</style>
+                                <path d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z"/>
+                            </svg>
+                        </div>
                     </div>
-                </div>
-                <button type="submit" class="text-white h-11 w-full bg-blue-500 shadow-lg rounded-lg hover:rounded-2xl transition-all ease-in mt-7"> Submit </button>
+                    <button type="submit" class="text-white h-11 w-full bg-blue-500 shadow-lg rounded-lg hover:rounded-2xl transition-all ease-in mt-7"> Submit </button>
+                </form>
                 <div class="mt-6 text-center">
                     <hr>
                     <h2 class="mt-2">Or Sign In With</h2>
@@ -68,7 +77,7 @@
                         </button>
                     </div>
                 </div>
-            </form>
+            {/if}
         </div>
     </div>
 </div>
