@@ -42,8 +42,8 @@
               <Link to='/home' class="text-md text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 font-medium">Meet Our Team</Link>
               <Dropdown text="Committees" options={["1", "2"]} dark={true}/>
               <Link to='/home' class="text-md text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 font-medium">Schedule</Link>
-              <Link to='/home' class="text-md text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 font-medium">About Us</Link>
-              <Link to='/home' class=" bg-purple-600 rounded-xl px-4 py-2 text-white hover:rounded-3xl hover:px-6 transition-all ease-in duration-150">Sign Up</Link>
+              <Link to='/about' class="text-md text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 font-medium">About Us</Link>
+              <Link to='/home' class=" bg-blue-500 rounded-xl px-4 py-2 text-white hover:rounded-3xl hover:px-6 transition-all ease-in duration-150">Sign Up</Link>
             </div>
           </div>
         </div>
@@ -82,8 +82,8 @@
                 <Link to='/home' class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Meet Our Team</Link>
                 <Dropdown options={["1", "2"]} text="Committees" dark={true} />
                 <Link to='/home' class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Schedule</Link>
-                <Link to='/home' class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">About Us</Link>
-                <Link to='/home' class="bg-purple-600 text-white hover:bg-purple-800 hover:text-white block rounded-md px-3 py-2 text-center font-medium">Sign Up</Link>
+                <Link to='/about' class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">About Us</Link>
+                <Link to='/home' class="bg-blue-500 text-white hover:bg-blue-700 hover:text-white block rounded-md px-3 py-2 text-center font-medium">Sign Up</Link>
             </div>
         </div>
 
