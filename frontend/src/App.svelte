@@ -3,6 +3,7 @@
   import LoginForm from "./lib/LoginForm.svelte";
   import Home from './lib/Home.svelte';
   import AboutUs from './lib/AboutUs.svelte';
+  import MeetTeam from './lib/MeetTeam.svelte';
 </script>
 
 
@@ -11,6 +12,7 @@
   <Route path="/" component={LoginForm} />
   <Route path='/home' component={Home} />
   <Route path='/about' component={AboutUs} />
+  <Route path='/meet' component={MeetTeam} />
 </Router>
 
 

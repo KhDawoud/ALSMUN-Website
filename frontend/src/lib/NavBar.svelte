@@ -39,7 +39,7 @@
             <div class="flex space-x-4">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
               <Link to='/home' class="text-md text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 font-medium" aria-current="page">Portal</Link>
-              <Link to='/home' class="text-md text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 font-medium">Meet Our Team</Link>
+              <Link to='/meet' class="text-md text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 font-medium">Meet Our Team</Link>
               <Dropdown text="Committees" options={["1", "2"]} dark={true}/>
               <Link to='/home' class="text-md text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 font-medium">Schedule</Link>
               <Link to='/about' class="text-md text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 font-medium">About Us</Link>
@@ -79,7 +79,7 @@
             <div class="space-y-1 px-2 pb-3 pt-2">
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                 <Link to='/home' class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Portal</Link>
-                <Link to='/home' class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Meet Our Team</Link>
+                <Link to='/meet' class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Meet Our Team</Link>
                 <Dropdown options={["1", "2"]} text="Committees" dark={true} />
                 <Link to='/home' class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Schedule</Link>
                 <Link to='/about' class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">About Us</Link>

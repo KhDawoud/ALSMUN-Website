@@ -1,6 +1,6 @@
 <script>
     import CountDown from "./CountDown.svelte";
-import NavBar from "./NavBar.svelte";
+    import NavBar from "./NavBar.svelte";
     import SchoolBackground from 'C:/Users/Admin/Desktop/MUN Website/frontend/src/assets/SchoolBackground.jpeg'
 </script>
 
