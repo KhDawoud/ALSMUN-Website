@@ -11,9 +11,9 @@
 
 
 
-<section class="grid grid-cols-1 md:grid-cols-2 gap-4 border-2 border-gray-400 rounded-3xl shadow-md">
+<section class="grid grid-cols-1 md:grid-cols-2 gap-4 ">
     <div class="relative flex items-end">
-        <img src={image} alt={header} class="object-cover rounded-[1.35rem] rounded-b-none md:rounded-e-none md:rounded-[1.35rem] w-full"/>
+        <img src={image} alt={header} class="object-cover  w-full"/>
     </div>
     <div class="pt-3 pb-5 md:py-6 px-9 flex flex-col justify-between">
         <div class="mb-4 md:mb-0">
@@ -34,3 +34,4 @@
         </div>
     </div>
 </section>
+<hr>
