@@ -1,7 +1,7 @@
 <script lang="ts">
   import NavBar from "../../Components/NavBar.svelte";
   import GroupSection from "../../Components/GroupSection.svelte";
-  import SDG from "../../../assets/Secretariat.jpg";
+  import SDG from "../../../assets/Secretariat/Secretariat.jpg";
   import Banner from '../../Components/Banner.svelte';
   import AC from '../../../assets/AC.jpg';
   import OC from "../../../assets/OC.jpg";
