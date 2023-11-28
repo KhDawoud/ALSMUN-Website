@@ -1,19 +1,17 @@
 <script lang="ts">
     import NavBar from "../../Components/NavBar.svelte";
     import GroupSection from "../../Components/GroupSection.svelte";
-    import Media from '../../../assets/Media.jpg';
-    import Catering from '../../../assets/Catering.jpg';
+    import Media from '../../../assets/OC/Media/Media.jpg';
+    import Catering from '../../../assets/OC/Catering/Catering.jpg';
     import MahmoudHelmy from '../../../assets/Mahmoud Helmy.jpg';
     import OmarGabr from '../../../assets/Omar Gabr.jpg';
     import SaraTalaat from '../../../assets/Sara Talaat.jpg';
     import MostafaDawoud from '../../../assets/Mostafa Dawoud.jpg';
     import HalaNasr from '../../../assets/Hala Nasr.jpg';
     import HeadShot from "../../Components/HeadShot.svelte";
-    import SoftwareTeam from "../../../assets/SoftwareTeam.jpg";
+    import SoftwareTeam from "../../../assets/OC/SoftwareTeam/SoftwareTeam.jpg";
     import Banner from '../../Components/Banner.svelte';
-  
-  
-  </script>
+</script>
   
   
   <NavBar />
@@ -22,8 +20,8 @@
   
   <main class="grid grid-flow-row grid-cols-1 space-y-5 m-5">
       <GroupSection header="Software Team" link="/meet/oc/softwareteam" text={null} image={SoftwareTeam} />
-      <GroupSection header="Media Team" link="/home" text={null} image={Media} />
-      <GroupSection header="Catering Team" link='/home' text={null} image={Catering} />
+      <GroupSection header="Media Team" link="/home/oc/media" text={null} image={Media} />
+      <GroupSection header="Catering Team" link='/meet/oc/catering' text={null} image={Catering} />
       <div class="row-span-1 grid grid-cols-3 grid-flow-col space-x-2">
         <HeadShot name="Mahmoud Helmy" title="Head of Confrence Logistics" image={MahmoudHelmy} quote="Live Every Day Like It's Your Last" />
         <HeadShot name="Omar Gabr" title="Head of Aesthetics & Branding" image={OmarGabr} quote="Yesterday is history, tomorrow a mystery and today is a gift" />

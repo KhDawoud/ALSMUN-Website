@@ -1,10 +1,10 @@
 <script lang="ts">
-  import AliElGuindy from '../../../assets/Ali Guindy.jpg';
+  import AliElGuindy from '../../../assets/OC/SoftwareTeam/Ali Guindy.jpg';
   import NavBar from "../../Components/NavBar.svelte";
-  import KhaledDawoud from '../../../assets/Khaled Dawoud.jpg';
+  import KhaledDawoud from '../../../assets/OC/SoftwareTeam/Khaled Dawoud.jpg';
   import HeadShot from "../../Components/HeadShot.svelte";
-  import MuhammedElKhedr from '../../../assets/Muhammed elkhedr.jpg';
-  import KarimElMetainy from '../../../assets/Karim El Metainy.jpg';
+  import MuhammedElKhedr from '../../../assets/OC/SoftwareTeam/Muhammed elkhedr.jpg';
+  import KarimElMetainy from '../../../assets/OC/SoftwareTeam/Karim El Metainy.jpg';
   import Background from "../../../assets/Alt2.svg";
 
 
