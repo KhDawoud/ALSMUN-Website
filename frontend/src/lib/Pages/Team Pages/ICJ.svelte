@@ -1,5 +1,6 @@
 <script lang="ts">
     import NavBar from "../../Components/NavBar.svelte";
+    import GroupSection from "../../Components/GroupSection.svelte";
     import HeadShot from "../../Components/HeadShot.svelte";
     import OmarGabr from "../../../assets/AC/ICJ/Omar Gabr - ICJ chair.jpg"
     import LilyAmmar from "../../../assets/AC/ICJ/Lily Ammar - ICJ cochair.jpg"
@@ -7,35 +8,17 @@
 </script>
   
 
-<body class="bg-cover bg-no-repeat bg-center" >
     <NavBar />
+    <header class="px-10">
+        <h1 class=" text-4xl font-bold text-center mt-10"> The International Court Of Justice </h1>
+        <hr class="mb-6 mt-4">  
+    </header>
+    <main class="space-y-4 p-8">
+        <GroupSection link={null} noReadMe={true} header="Omar Gabr - President Of ICJ" text={null} image={OmarGabr} />
+        <section class="grid grid-flow-col grid-cols-2 space-x-3">
+            <HeadShot name="Lily Ammar" title="Co-President" image={LilyAmmar} quote="With determination anything is achievable"/>
+            <HeadShot name="Jalila AbulMagd" title="Co-President" image={JalilaAbulmagd} quote="Sometimes all you need is a little imagination"/>
+        </section>
+    </main>
 
-    <div class="p-10">
-        <h1 class="text-center text-4xl font-bold mb-2">Presidents of the international Court of Justice</h1>
-        <hr class="mb-4">
-        <div class="grid grid-flow-row grid-rows-3 space-y-2 ">
-            <section class="grid grid-cols-1 md:grid-cols-2 gap-4  rounded shadow-md row-span-2">
-                <div class="relative flex p-5">
-                    <img src={OmarGabr} alt="Person" class="object-cover rounded-lg w-full"/>
-                </div>
-                <div class="flex flex-col justify-between">
-                    <div class="">
-                        <div class="font-bold text-2xl text-gray-800 mb-3 mt-7">
-                            <header>President of the international court of justice</header>
-                            <hr>
-                        </div>
-                        <div>
-                            <article class=" text-sm md:text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
-                            </article>
-                        </div>
-                    </div> 
-                </div>
-            </section>
-            <div class="grid grid_cols_2 grid-flow-col space-x-2 ">
-                <HeadShot name="Lily Ammar" title="Co-President" image={LilyAmmar} quote="With determination anything is achievable"/>
-                <HeadShot name="Jalila AbulMagd" title="Co-President" image={JalilaAbulmagd} quote="Sometimes all you need is a little imagination"/>
-            </div>
-        </div>
-    </div>
-</body>
+    

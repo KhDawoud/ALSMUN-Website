@@ -27,17 +27,17 @@
   <Route path='/about' component={AboutUs} />
   <Route path='/meet' component={MeetTeam} />
   <Route path='/meet/secretariat' component={Secretariat} />
-  <Route path="/meet/oc" component={OC} />
   <Route path="/meet/ac" component={AC} />
-  <Route path='/meet/oc/softwareteam' component={SoftwareTeam} />
-  <Route path='/meet/oc/catering' component ={CateringTeam} />
-  <Route path='/meet/oc/media' component ={MediaTeam} />
   <Route path='/meet/ac/ICJ' component = {ICJ} />
   <Route path='/meet/ac/HRC' component = {HRC}/>
   <Route path='/meet/ac/ECOSOC' component = {ECOSOC} />
   <Route path='/meet/ac/GA' component = {GA} />
   <Route path='/meet/ac/JC' component = {JC} />
   <Route path='/meet/ac/SC' component = {SC} />
+  <Route path="/meet/oc" component={OC} />
+  <Route path='/meet/oc/softwareteam' component={SoftwareTeam} />
+  <Route path='/meet/oc/catering' component ={CateringTeam} />
+  <Route path='/meet/oc/media' component ={MediaTeam} />
 </Router>
 
 

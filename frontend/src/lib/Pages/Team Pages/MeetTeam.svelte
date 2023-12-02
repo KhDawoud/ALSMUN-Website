@@ -15,8 +15,8 @@
 <Banner />
 
 <main class="grid grid-flow-row grid-cols-1 space-y-5 m-5">
-    <GroupSection header="Secretariat" link="/meet/secretariat" text={null} image={SDG} />
-    <GroupSection header="Academic Committee" link="/meet/ac" text={null} image={AC} />
-    <GroupSection header="Organising Committee" link="/meet/oc" text={null} image={OC} />
+    <GroupSection noReadMe={false} header="Secretariat" link="/meet/secretariat" text={null} image={SDG} />
+    <GroupSection noReadMe={false} header="Academic Committee" link="/meet/ac" text={null} image={AC} />
+    <GroupSection noReadMe={false} header="Organising Committee" link="/meet/oc" text={null} image={OC} />
 </main>
 
