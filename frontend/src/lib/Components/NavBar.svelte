@@ -6,6 +6,7 @@
 
   let profileDropdown: boolean = false;  
   let mobileMenu: boolean = false;
+  let authenticated: boolean = false;
 </script>
 
 
@@ -38,36 +39,39 @@
           <div class="hidden sm:ml-6 sm:block py-6">
             <div class="flex space-x-4">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-              <Link to='/' class="text-md text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 font-medium" aria-current="page">Portal</Link>
               <Link to='/meet' class="text-md text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 font-medium">Meet Our Team</Link>
-              <Dropdown text="Committees" options={["1", "2"]} dark={true}/>
+              <Dropdown text="Committees" options={{"Human Rights Council": "/Committees/HRC", "General Assembly": "/Committees/GA", "Economic & Social Council": "/Committees/ECOSOC", "International Court of Justice": "/Committees/ICJ", "Junior Committee": "/Committees/JC", "Security Council": "/Committees/SC"}} dark={true}/>
               <Link to='/' class="text-md text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 font-medium">Schedule</Link>
               <Link to='/about' class="text-md text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 font-medium">About Us</Link>
-              <Link to='/LogIn' class=" bg-blue-500 rounded-xl px-4 py-2 text-white hover:rounded-3xl hover:px-6 transition-all ease-in duration-150">Sign Up</Link>
+    
             </div>
           </div>
         </div>
 
         <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
           <!-- Profile dropdown -->
-          <div class="relative ml-4">
-            <div>
-              <button on:click={() => profileDropdown = !profileDropdown} type="button" class="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
-                <span class="absolute -inset-1.5"></span>
-                <span class="sr-only">Open user menu</span>
-                <img class="h-11 rounded-full" src={PFP} alt="">
-              </button>
-            </div>
+          {#if authenticated}
+            <div class="relative ml-4">
+              <div>
+                <button on:click={() => profileDropdown = !profileDropdown} type="button" class="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
+                  <span class="absolute -inset-1.5"></span>
+                  <span class="sr-only">Open user menu</span>
+                  <img class="h-11 rounded-full" src={PFP} alt="">
+                </button>
+              </div>
 
-            {#if profileDropdown}
-                <div class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
-                <!-- Active: "bg-gray-100", Not Active: "" -->
-                <Link to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem" id="user-menu-item-0">Your Profile</Link>
-                <Link to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem" id="user-menu-item-1">Settings</Link>
-                <Link to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem" id="user-menu-item-2">Sign out</Link>
-                </div>
-            {/if}
-          </div>
+              {#if profileDropdown}
+                  <div class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
+                  <!-- Active: "bg-gray-100", Not Active: "" -->
+                  <Link to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem" id="user-menu-item-0">Your Profile</Link>
+                  <Link to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem" id="user-menu-item-1">Settings</Link>
+                  <Link to="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem" id="user-menu-item-2">Sign out</Link>
+                  </div>
+              {/if}
+            </div>
+          {:else}
+            <Link to='/LogIn' class=" bg-blue-500 rounded-xl px-6 py-3  text-white hover:rounded-3xl hover:px-6 transition-all ease-in duration-150">Sign Up</Link>
+          {/if}
 
         </div>
       </div>

@@ -18,7 +18,7 @@
 </header>
 <section class="p-10 space-y-6">
     <GroupSection link={null} noReadMe={true} header="Salma Saber - Chair of HRC A" text={null} image={SalmaSaber} />
-    <section class="grid grid-flow-col grid-cols-2 space-x-3">
+    <section class="space-x-0 space-y-2 md:grid md:grid-flow-col md:grid-cols-2 md:space-x-3 md:space-y-0">
         <HeadShot name="Maya Daader" title="Co-Chair" image={MayaDaader} quote="With determination anything is achievable"/>
         <HeadShot name="Ziad Medhat" title="Co-Chair" image={ZiadMedhat} quote="Sometimes all you need is a little imagination"/>
     </section>
@@ -30,7 +30,7 @@
 </header>
 <section class="p-10 space-y-6">
     <GroupSection link={null} noReadMe={true} header="Omar ElHefnawy - Chair of HRC B" text={null} image={OmarElHefnawy} />
-    <section class="grid grid-flow-col grid-cols-2 space-x-3">
+    <section class="space-x-0 space-y-2 md:grid md:grid-flow-col md:grid-cols-2 md:space-x-3 md:space-y-0">
         <HeadShot name="Nour Salah" title="Co-Chair" image={NourSalah} quote="With determination anything is achievable"/>
         <HeadShot name="Habiba Kholeif" title="Co-Chair" image={HabibaKholeif} quote="Sometimes all you need is a little imagination"/>
     </section>

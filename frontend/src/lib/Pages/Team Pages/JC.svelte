@@ -5,18 +5,31 @@
     import DalilaMobarak from "../../../assets/AC/JC/Dalila Mobarak - JC co chair.jpg" 
     import KhadijaDarrag from "../../../assets/AC/JC/Khadija Darrag - Junior Committee Co chair.jpg"
     import GroupSection from "../../Components/GroupSection.svelte";
+    import Placeholder from"../../../assets/PlaceHolder.jpeg";
   </script>
   
       <NavBar />
         <header class="px-10">
-            <h1 class=" text-4xl font-bold text-center mt-10"> Junior Committee </h1>
+            <h1 class=" text-4xl font-bold text-center mt-10"> Junior Committee A </h1>
             <hr class="mb-2 mt-4">  
         </header>
         <section class="p-10 space-y-6">
-            <GroupSection link={null} noReadMe={true} header="Malak Abdallah - Chair of JC" text={null} image={MalakAbdallah} />
-            <section class="grid grid-flow-col grid-cols-2 space-x-3">
+            <GroupSection link={null} noReadMe={true} header="Malak Abdallah - Chair of JC A" text={null} image={MalakAbdallah} />
+            <section class="space-x-0 space-y-2 md:grid md:grid-flow-col md:grid-cols-2 md:space-x-3 md:space-y-0">
                 <HeadShot name="Dalila Mobarak" title="Co-Chair" image={DalilaMobarak} quote="With determination anything is achievable"/>
                 <HeadShot name="Khadija Darrag" title="Co-Chair" image={KhadijaDarrag} quote="Sometimes all you need is a little imagination"/>
+            </section>
+        </section>
+
+        <header class="px-10">
+            <h1 class=" text-4xl font-bold text-center mt-10"> Junior Committee B </h1>
+            <hr class="mb-2 mt-4">  
+        </header>
+        <section class="p-10 space-y-6">
+            <GroupSection link={null} noReadMe={true} header="Youssef Khater - Chair of JC B" text={null} image={Placeholder} />
+            <section class="space-x-0 space-y-2 md:grid md:grid-flow-col md:grid-cols-2 md:space-x-3 md:space-y-0">
+                <HeadShot name="Adam Salem" title="Co-Chair" image={Placeholder} quote="With determination anything is achievable"/>
+                <HeadShot name="Joud Khaled" title="Co-Chair" image={Placeholder} quote="Sometimes all you need is a little imagination"/>
             </section>
         </section>
   

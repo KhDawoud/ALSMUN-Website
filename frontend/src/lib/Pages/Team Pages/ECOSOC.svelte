@@ -19,7 +19,7 @@
     </header>
     <section class="p-10 space-y-6">
         <GroupSection link={null} noReadMe={true} header="Omar Ezzi - Chair of ECOSOC A" text={null} image={OmarEzzi} />
-        <section class="grid grid-flow-col grid-cols-2 space-x-3">
+        <section class="space-x-0 space-y-2 md:grid md:grid-flow-col md:grid-cols-2 md:space-x-3 md:space-y-0">
             <HeadShot name="Salma Shayal" title="Co-Chair" image={SalmaShayal} quote="With determination anything is achievable"/>
             <HeadShot name="Adam Youssef" title="Co-Chair" image={AdamYoussef} quote="Sometimes all you need is a little imagination"/>
         </section>
@@ -31,7 +31,7 @@
     </header>
     <section class="p-10 space-y-6">
         <GroupSection link={null} noReadMe={true} header="Alaa Hashem - Chair of ECOSOC B" text={null} image={AlaaHashem} />
-        <section class="grid grid-flow-col grid-cols-2 space-x-3">
+        <section class="space-x-0 space-y-2 md:grid md:grid-flow-col md:grid-cols-2 md:space-x-3 md:space-y-0">
             <HeadShot name="Habiba Raslan" title="Co-Chair" image={HabibaRaslan} quote="With determination anything is achievable"/>
             <HeadShot name="Mahmoud Helmy" title="Co-Chair" image={MahmoudHelmy} quote="Sometimes all you need is a little imagination"/>
         </section>

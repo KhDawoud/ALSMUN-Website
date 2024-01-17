@@ -10,7 +10,7 @@
     <h1 class=" text-4xl font-bold text-center mt-10"> Our Catering Team </h1>
     <hr class="mb-10 mt-4">  
 </header>
-<main class="m-5 space-y-4">
+<main class="m-5 space-y-4 md:px-10 px-4">
     <GroupSection link={null} noReadMe={true} header="Youssef ElBarbary" text={null} image={YoussefElbarbary} />
     <GroupSection link={null} noReadMe={true} header="Layla ElAbd" text={null} image={LaylaElAbd} />
 </main>

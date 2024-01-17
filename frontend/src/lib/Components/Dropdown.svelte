@@ -1,6 +1,6 @@
 <script lang="ts">
     import { Link } from "svelte-routing";
-    export let options: Array<string>;
+    export let options: Object;
     export let text: string;
     export let dark: boolean;
     let clicked: boolean = false;
@@ -20,8 +20,8 @@
     <div class="absolute left-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
         <div class="py-1" role="none">
             <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
-            {#each options as option, i (i)}
-                <Link to="/home" class="text-gray-700 block px-4 py-2 text-sm hover:text-gray-900 hover:bg-gray-100" role="menuitem">{option} </Link>
+            {#each Object.entries(options) as [name, link], i (i)}
+                <Link to={link} class="text-gray-700 block px-4 py-2 text-sm hover:text-gray-900 hover:bg-gray-100" role="menuitem">{name} </Link>
             {/each}    
         </div>
     </div>

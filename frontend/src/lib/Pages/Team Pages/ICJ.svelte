@@ -15,7 +15,7 @@
     </header>
     <main class="space-y-4 p-8">
         <GroupSection link={null} noReadMe={true} header="Omar Gabr - President Of ICJ" text={null} image={OmarGabr} />
-        <section class="grid grid-flow-col grid-cols-2 space-x-3">
+        <section class="space-x-0 space-y-2 md:grid md:grid-flow-col md:grid-cols-2 md:space-x-3 md:space-y-0">
             <HeadShot name="Lily Ammar" title="Co-President" image={LilyAmmar} quote="With determination anything is achievable"/>
             <HeadShot name="Jalila AbulMagd" title="Co-President" image={JalilaAbulmagd} quote="Sometimes all you need is a little imagination"/>
         </section>

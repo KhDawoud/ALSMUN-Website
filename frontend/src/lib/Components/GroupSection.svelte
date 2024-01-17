@@ -18,7 +18,7 @@
     <div class="relative flex">
         <img src={image} alt={header} class="object-cover w-full"/>
     </div>
-    <div class="pt-3 pb-5 md:py-6 px-9 flex flex-col justify-between">
+    <div class="pt-3 pb-5 md:py-6 md:px-7 px-4 flex flex-col justify-between">
         <div class="mb-4 md:mb-0">
             <div class="font-bold text-2xl text-gray-800 mb-3">
                 <header>{header}</header>

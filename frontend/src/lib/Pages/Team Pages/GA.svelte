@@ -18,7 +18,7 @@
     </header>
     <section class="p-10 space-y-6">
         <GroupSection link={null} noReadMe={true} header="Karim ElGuindy - Chair of GA A" text={null} image={KarimElguindy} />
-        <section class="grid grid-flow-col grid-cols-2 space-x-3">
+        <section class="space-x-0 space-y-2 md:grid md:grid-flow-col md:grid-cols-2 md:space-x-3 md:space-y-0">
             <HeadShot name="Layla Mourad" title="Co-Chair" image={LaylaMourad} quote="With determination anything is achievable"/>
             <HeadShot name="Youssef Sheriff" title="Co-Chair" image={PlaceHolder} quote="Sometimes all you need is a little imagination"/>
         </section>
@@ -30,7 +30,7 @@
     </header>
     <section class="p-10 space-y-6">
         <GroupSection link={null} noReadMe={true} header="Omar Fazary - Chair of GA B" text={null} image={PlaceHolder} />
-        <section class="grid grid-flow-col grid-cols-2 space-x-3">
+        <section class="space-x-0 space-y-2 md:grid md:grid-flow-col md:grid-cols-2 md:space-x-3 md:space-y-0">
             <HeadShot name="Malak Shawky" title="Co-Chair" image={MalakShawky} quote="With determination anything is achievable"/>
             <HeadShot name="Cynthia Ezzi" title="Co-Chair" image={CynthiaEzzi} quote="Sometimes all you need is a little imagination"/>
         </section>

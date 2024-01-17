@@ -17,6 +17,12 @@
   import JC from './lib/Pages/Team Pages/JC.svelte'
   import Construction from './lib/Pages/PageUnderConstruction.svelte';
   import SC from './lib/Pages/Team Pages/SC.svelte';
+  import CHRC from './lib/Pages/Committee Pages/HRC.svelte';
+  import CECOSOC from './lib/Pages/Committee Pages/ECOSOC.svelte';
+  import CICJ from './lib/Pages/Committee Pages/ICJ.svelte';
+  import CJC from './lib/Pages/Committee Pages/JC.svelte';
+  import CSC from './lib/Pages/Committee Pages/SC.svelte';
+  import CGA from './lib/Pages/Committee Pages/GA.svelte';
 </script>
 
 
@@ -38,6 +44,12 @@
   <Route path='/meet/oc/softwareteam' component={SoftwareTeam} />
   <Route path='/meet/oc/catering' component ={CateringTeam} />
   <Route path='/meet/oc/media' component ={MediaTeam} />
+  <Route path='/Committees/HRC' component ={CHRC} />
+  <Route path='/Committees/ICJ' component ={CICJ} />
+  <Route path='/Committees/JC' component ={CJC} />
+  <Route path='/Committees/SC' component ={CSC} />
+  <Route path='/Committees/ECOSOC' component ={CECOSOC} />
+  <Route path='/Committees/GA' component ={CGA} />
 </Router>
 
 

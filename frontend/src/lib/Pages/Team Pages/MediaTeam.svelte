@@ -2,6 +2,7 @@
     import NavBar from "../../Components/NavBar.svelte";
     import HeadShot from "../../Components/HeadShot.svelte";
     import SelimElMeadawy from "../../../assets/OC/Media/Selim Meadawy - Media and Photography.jpg"
+    import MagdiBittar from "../../../assets/OC/Media/MagdiBittar.jpg";
     import PlaceHolder from "../../../assets/PlaceHolder.jpeg"
     import GroupSection from "../../Components/GroupSection.svelte";
 </script>
@@ -15,10 +16,6 @@
     <main class="grid grid-flow-row grid-rows-3 m-5 space-y-4 p-5">
         <HeadShot name="Selim ElMeadawy" title="Photographer" image={SelimElMeadawy} quote="With determination anything is achievable"/>
         <HeadShot name="Hussein Namek" title="Media Team" image={PlaceHolder} quote="Sometimes all you need is a little imagination"/>
-        <HeadShot name="Magdi El Bittar" title="Media Team" image={PlaceHolder} quote="Sometimes all you need is a little imagination"/>
+        <HeadShot name="Magdi El Bittar" title="Interviewer" image={MagdiBittar} quote="Sometimes all you need is a little imagination"/>
     </main>
-    <main class=" grid-flow-row grid-rows-3 m-5 space-y-4 p-5">
-          <GroupSection link={null} noReadMe={true} header="Selim ElMeadawy - Photographer" text={null} image={SelimElMeadawy} />
-          <GroupSection link={null} noReadMe={true} header="Hussein Namek - Media Team" text={null} image={PlaceHolder} />
-          <GroupSection link={null} noReadMe={true} header="Magdi El Bittar - Media Team" text={null} image={PlaceHolder} />
-    </main>
+
