@@ -3,6 +3,7 @@
     import GroupSection from "../../Components/GroupSection.svelte";
     import YoussefElbarbary from "../../../assets/OC/Catering/Youssef ElBarbary - Catering.jpg"
     import LaylaElAbd from "../../../assets/OC/Catering/Layla El Abd - catering.jpg"
+    import ZeinaShalaby from "../../../assets/Default_pfp.svg"
 </script>
 
 <NavBar />
@@ -13,4 +14,5 @@
 <main class="m-5 space-y-4 md:px-10 px-4">
     <GroupSection link={null} noReadMe={true} header="Youssef ElBarbary" text={null} image={YoussefElbarbary} />
     <GroupSection link={null} noReadMe={true} header="Layla ElAbd" text={null} image={LaylaElAbd} />
+    <GroupSection link={null} noReadMe={true} header="Zeina Shalaby" text={null} image={ZeinaShalaby}/> 
 </main>
