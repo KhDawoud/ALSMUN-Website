@@ -39,10 +39,11 @@
           <div class="hidden sm:ml-6 sm:block py-6">
             <div class="flex space-x-4">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-              <Link to='/meet' class="text-md text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 font-medium">Meet Our Team</Link>
-              <Dropdown text="Committees" options={{"Human Rights Council": "/Committees/HRC", "General Assembly": "/Committees/GA", "Economic & Social Council": "/Committees/ECOSOC", "International Court of Justice": "/Committees/ICJ", "Junior Committee": "/Committees/JC", "Security Council": "/Committees/SC"}} dark={true}/>
-              <Link to='/' class="text-md text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 font-medium">Schedule</Link>
+              <Link to='/meet' class="text-md text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 font-medium">Meet the Team of 2024</Link>
+              <Dropdown text="Committees and Topics" options={{"Human Rights Council": "/Committees/HRC", "General Assembly": "/Committees/GA", "Economic & Social Council": "/Committees/ECOSOC", "International Court of Justice": "/Committees/ICJ", "Junior Committee": "/Committees/JC", "Security Council": "/Committees/SC"}} dark={true}/>
+              <Link to='/' class="text-md text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 font-medium">Schedule and Events</Link>
               <Link to='/about' class="text-md text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 font-medium">About Us</Link>
+              <Dropdown text="Archive" options ={{"ALSMUN1":"", "ALSMUN2":""}} dark = {true}/>
     
             </div>
           </div>
@@ -84,8 +85,8 @@
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                 <Link to='/' class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Portal</Link>
                 <Link to='/meet' class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Meet Our Team</Link>
-                <Dropdown options={["1", "2"]} text="Committees" dark={true} />
-                <Link to='/' class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Schedule</Link>
+                <Dropdown options={["1", "2"]} text="Committees and Topics" dark={true} />
+                <Link to='/' class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Schedule and Events</Link>
                 <Link to='/about' class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">About Us</Link>
                 <Link to='/LogIn' class="bg-blue-500 text-white hover:bg-blue-700 hover:text-white block rounded-md px-3 py-2 text-center font-medium">Sign Up</Link>
             </div>
