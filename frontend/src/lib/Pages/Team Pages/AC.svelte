@@ -7,7 +7,7 @@
     import GA from "../../../assets/AC/GA.jpg"
     import ECOSOC from "../../../assets/AC/ECOSOC.jpg"
     import SC from "../../../assets/AC/SC/SC.jpg"
-    import JC from "../../../assets/AC/JC/JC.png"
+    import JC from "../../../assets/AC/JC/JC.jpg"
 </script>
 
 <NavBar />

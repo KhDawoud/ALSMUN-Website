@@ -6,7 +6,7 @@
     import LaylaMourad from "../../../assets/AC/GA-A/Layla Mourad - GA A cochair.jpg"
     import MalakShawky from "../../../assets/AC/GA-B/Malak Shawky-GAB cochair.jpg"
     import CynthiaEzzi from "../../../assets/AC/GA-B/Cynthia Ezzi - GAB  co chair.jpg"
-    import PlaceHolder from "../../../assets/PlaceHolder.jpeg"
+    import OmarFazary from "../../../assets/AC/GA-B/Omar Fazary.jpg"
 </script>
   
 
@@ -20,7 +20,7 @@
         <GroupSection link={null} noReadMe={true} header="Karim ElGuindy - Chair of GA A" text={null} image={KarimElguindy} />
         <section class="space-x-0 space-y-2 md:grid md:grid-flow-col md:grid-cols-2 md:space-x-3 md:space-y-0">
             <HeadShot name="Layla Mourad" title="Co-Chair" image={LaylaMourad} quote="With determination anything is achievable"/>
-            <HeadShot name="Youssef Sheriff" title="Co-Chair" image={PlaceHolder} quote="Sometimes all you need is a little imagination"/>
+            <HeadShot name="Youssef Sheriff" title="Co-Chair" image={OmarFazary} quote="Sometimes all you need is a little imagination"/>
         </section>
     </section>
     
@@ -29,7 +29,7 @@
         <hr class="mb-2 mt-4">  
     </header>
     <section class="p-10 space-y-6">
-        <GroupSection link={null} noReadMe={true} header="Omar Fazary - Chair of GA B" text={null} image={PlaceHolder} />
+        <GroupSection link={null} noReadMe={true} header="Omar Fazary - Chair of GA B" text={null} image={OmarFazary} />
         <section class="space-x-0 space-y-2 md:grid md:grid-flow-col md:grid-cols-2 md:space-x-3 md:space-y-0">
             <HeadShot name="Malak Shawky" title="Co-Chair" image={MalakShawky} quote="With determination anything is achievable"/>
             <HeadShot name="Cynthia Ezzi" title="Co-Chair" image={CynthiaEzzi} quote="Sometimes all you need is a little imagination"/>

@@ -10,12 +10,36 @@
 
     <NavBar />
     <header class="px-10">
-        <h1 class=" text-4xl font-bold text-center mt-10"> Our Media Team </h1>
+        <h1 class=" text-6xl font-bold text-center mt-10"> Our Media Team </h1>
         <hr class="mb-2 mt-4">  
     </header>
-    <main class="grid grid-flow-row grid-rows-3 m-5 space-y-4 p-5">
-        <HeadShot name="Selim ElMeadawy" title="Photographer" image={SelimElMeadawy} quote="With determination anything is achievable"/>
-        <HeadShot name="Hussein Namek" title="Media Team" image={PlaceHolder} quote="Sometimes all you need is a little imagination"/>
-        <HeadShot name="Magdi El Bittar" title="Interviewer" image={MagdiBittar} quote="Sometimes all you need is a little imagination"/>
+    <main class="grid grid-cols-4 m-5 space-x-4 space-y-4 p-5">
+        <div class="mt-4 ms-4">
+            <HeadShot name="Hussein Namek" title="Interviewer 1" image={PlaceHolder} quote="With determination anything is achievable"/>
+        </div>  
+        <HeadShot name="Seif El Aref" title="Photographer 1" image={PlaceHolder} quote="Sometimes all you need is a little imagination"/>
+        <HeadShot name="Nazly Helmy" title="Interviewer 2" image={PlaceHolder} quote="With determination anything is achievable"/>
+        <HeadShot name="Sherine Wally" title="Photographer 2" image={PlaceHolder} quote="With determination anything is achievable"/>
+        <HeadShot name="Jana Samhan" title="Interviewer 3" image={PlaceHolder} quote="With determination anything is achievable"/>
+        <HeadShot name="Talia Seoudy" title="Photographer 3" image={PlaceHolder} quote="With determination anything is achievable"/>
+        <HeadShot name="Farida Shawky" title="Interviewer 4" image={PlaceHolder} quote="With determination anything is achievable"/>
+        <HeadShot name="Jana Shahin" title="Photographer 4" image={PlaceHolder} quote="With determination anything is achievable"/>
+        <HeadShot name="Aline Wahba" title="Interviewer 5" image={PlaceHolder} quote="With determination anything is achievable"/>
+        <HeadShot name="Judi Nassar" title="Photographer 5" image={PlaceHolder} quote="With determination anything is achievable"/>
+        <HeadShot name="Haya Abou El Nasr" title="Interviewer 6" image={PlaceHolder} quote="With determination anything is achievable"/>
+        <HeadShot name="Farah Ibrahim" title="Photographer 6" image={PlaceHolder} quote="With determination anything is achievable"/>
+        <HeadShot name="Farida Khalil" title="Interviewer 7" image={PlaceHolder} quote="With determination anything is achievable"/>
+        <HeadShot name="Habiba Khalil" title="Photographer 7" image={PlaceHolder} quote="With determination anything is achievable"/>
+        <HeadShot name="Magdi El Bittar" title="Interviewer 8" image={MagdiBittar} quote="With determination anything is achievable"/>
+        <HeadShot name="Selim El Meadawy" title="Photographer 8" image={SelimElMeadawy} quote="With determination anything is achievable"/>
+        
+        
+        
+        
+        
+
+        
+        
+        
     </main>
 

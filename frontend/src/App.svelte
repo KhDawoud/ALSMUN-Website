@@ -29,7 +29,7 @@
 
 <Router>
   <Route path="/LogIn" component={LoginForm} />
-  <Route path='/' component={Home} />
+  <Route path='/' component={MeetTeam} />
   <Route path='/about' component={AboutUs} />
   <Route path='/meet' component={MeetTeam} />
   <Route path='/meet/secretariat' component={Secretariat} />
