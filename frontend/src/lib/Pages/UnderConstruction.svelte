@@ -2,6 +2,9 @@
     import image from "../../assets/WorkInProgress.jpg"
 </script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cairo&family=Montserrat&family=Philosopher&family=Roboto+Slab&display=swap" rel="stylesheet">
     <style>
         body {
             display: flex;
@@ -16,13 +19,18 @@
         }
 
         .work-in-progress {
-            font-family: 'Comic Sans', sans-serif; /* Change the font family to Open Sans */
-            font-size: 20px;
+            font-family: 'Cairo', sans-serif;
+            color:black;
+            font-size: 60px;
             margin-bottom: 20px;
+            margin-top: -265px;
+            margin-left: 0px;
         }
 
         .animated-image {
             animation: bounce 1s infinite;
+            margin-top: 135px;
+            margin-left: 81px;
         }
 
         @keyframes bounce {
@@ -40,7 +48,7 @@
 <title>Work In Progress</title>
 <body>
     <div class="centered">
-        <p class="work-in-progress">Work In Progress</p>
+        <p class="work-in-progress">Under Construction</p>
         <img src={image} alt="Work in progress" class="animated-image">
     </div>
 </body>
