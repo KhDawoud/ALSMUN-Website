@@ -85,7 +85,7 @@
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                 <Link to='/' class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Portal</Link>
                 <Link to='/meet' class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Meet Our Team</Link>
-                <Dropdown options={["1", "2"]} text="Committees and Topics" dark={true} />
+                <Dropdown options={{"Human Rights Council": "/Committees/HRC", "General Assembly": "/Committees/GA", "Economic & Social Council": "/Committees/ECOSOC", "International Court of Justice": "/Committees/ICJ", "Junior Committee": "/Committees/JC", "Security Council": "/Committees/SC"}} text="Committees and Topics" dark={true} />
                 <Link to='/' class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Schedule and Events</Link>
                 <Link to='/about' class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">About Us</Link>
                 <Link to='/LogIn' class="bg-blue-500 text-white hover:bg-blue-700 hover:text-white block rounded-md px-3 py-2 text-center font-medium">Sign Up</Link>

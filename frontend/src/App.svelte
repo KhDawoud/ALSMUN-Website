@@ -15,7 +15,7 @@
   import ECOSOC from './lib/Pages/Team Pages/ECOSOC.svelte';
   import GA from './lib/Pages/Team Pages/GA.svelte'
   import JC from './lib/Pages/Team Pages/JC.svelte'
-  import Construction from './lib/Pages/PageUnderConstruction.svelte';
+  import Construction from './lib/Pages/UnderConstruction.svelte';
   import SC from './lib/Pages/Team Pages/SC.svelte';
   import CHRC from './lib/Pages/Committee Pages/HRC.svelte';
   import CECOSOC from './lib/Pages/Committee Pages/ECOSOC.svelte';
@@ -50,6 +50,5 @@
   <Route path='/Committees/SC' component ={CSC} />
   <Route path='/Committees/ECOSOC' component ={CECOSOC} />
   <Route path='/Committees/GA' component ={CGA} />
+  <Route path ='/Construction' component ={Construction} />
 </Router>
-
-
