@@ -39,11 +39,10 @@
           <div class="hidden sm:ml-6 sm:block py-6">
             <div class="flex space-x-4">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+              <Link to='/about' class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Home</Link>
               <Link to='/meet' class="text-md text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 font-medium">Meet the Team of 2024</Link>
               <Dropdown text="Committees and Topics" options={{"Human Rights Council": "/Committees/HRC", "General Assembly": "/Committees/GA", "Economic & Social Council": "/Committees/ECOSOC", "International Court of Justice": "/Committees/ICJ", "Junior Committee": "/Committees/JC", "Security Council": "/Committees/SC"}} dark={true}/>
-              <Link to='/' class="text-md text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 font-medium">Schedule and Events</Link>
-              <Link to='/about' class="text-md text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 font-medium">About Us</Link>
-              <Dropdown text="Archive" options ={{"ALSMUN1":"", "ALSMUN2":""}} dark = {true}/>
+              <Dropdown text="Archive" options ={{"ALSMUN1":"/Construction", "ALSMUN2":"/Construction"}} dark = {true}/>
     
             </div>
           </div>
@@ -71,7 +70,7 @@
               {/if}
             </div>
           {:else}
-            <Link to='/LogIn' class=" bg-blue-500 rounded-xl px-6 py-3  text-white hover:rounded-3xl hover:px-6 transition-all ease-in duration-150">Sign Up</Link>
+              <Link to='/LogIn' class="hidden sm:block bg-blue-500 rounded-xl px-6 py-3  text-white hover:rounded-3xl hover:px-6 transition-all ease-in duration-150">Sign Up</Link>
           {/if}
 
         </div>
@@ -81,16 +80,25 @@
     <!-- Mobile menu, show/hide based on menu state. -->
     {#if mobileMenu}
         <div class="sm:hidden" id="mobile-menu">
-            <div class="space-y-1 px-2 pb-3 pt-2">
+            <div class="space-y-2 px-2 pb-3 pt-2">
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                <Link to='/' class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Portal</Link>
-                <Link to='/meet' class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Meet Our Team</Link>
-                <Dropdown options={{"Human Rights Council": "/Committees/HRC", "General Assembly": "/Committees/GA", "Economic & Social Council": "/Committees/ECOSOC", "International Court of Justice": "/Committees/ICJ", "Junior Committee": "/Committees/JC", "Security Council": "/Committees/SC"}} text="Committees and Topics" dark={true} />
-                <Link to='/' class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Schedule and Events</Link>
-                <Link to='/about' class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">About Us</Link>
-                <Link to='/LogIn' class="bg-blue-500 text-white hover:bg-blue-700 hover:text-white block rounded-md px-3 py-2 text-center font-medium">Sign Up</Link>
+                <div class="block sm:inline-block">
+                    <Link to='/about' class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Home</Link>
+                </div>
+                <div class="block sm:inline-block">
+                    <Link to='/meet' class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Meet The Team of 2024</Link>
+                </div>
+                <div class="block sm:inline-block">
+                    <Dropdown options={{"Human Rights Council": "/Committees/HRC", "General Assembly": "/Committees/GA", "Economic & Social Council": "/Committees/ECOSOC", "International Court of Justice": "/Committees/ICJ", "Junior Committee": "/Committees/JC", "Security Council": "/Committees/SC"}} text="Committees and Topics" dark={true} />
+                </div>
+                <div class="block sm:inline-block">
+                    <Dropdown text="Archive" options={{"ALSMUN1":"/Construction", "ALSMUN2":"/Construction"}} dark={true}/>
+                </div>
+                <div class="block sm:inline-block">
+                    <Link to='/LogIn' class="bg-blue-500 text-white hover:bg-blue-700 hover:text-white block rounded-md px-3 py-2 text-center font-medium">Sign Up</Link>
+                </div>
             </div>
         </div>
-
     {/if}
+
   </nav>

@@ -2,7 +2,7 @@
   import { Router, Route } from 'svelte-routing';
   import LoginForm from "./lib/Pages/LoginForm.svelte";
   import Home from './lib/Pages/Home.svelte';
-  import AboutUs from './lib/Pages/AboutUs.svelte';
+  import AboutUs from './lib/Pages/Home.svelte';
   import MeetTeam from './lib/Pages/Team Pages/MeetTeam.svelte';
   import Secretariat from './lib/Pages/Team Pages/Secretariat.svelte';
   import OC from './lib/Pages/Team Pages/OC.svelte';
@@ -30,7 +30,6 @@
 <Router>
   <Route path="/LogIn" component={LoginForm} />
   <Route path='/' component={Home} />
-  <Route path='/about' component={AboutUs} />
   <Route path='/meet' component={MeetTeam} />
   <Route path='/meet/secretariat' component={Secretariat} />
   <Route path="/meet/ac" component={AC} />

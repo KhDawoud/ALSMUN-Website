@@ -1,54 +1,23 @@
 <script type="ts">
-    import image from "../../assets/WorkInProgress.jpg"
+    import { Link } from "svelte-routing";
+    import Construction from "../../assets/Icons/Construction.svg";
+    import NavBar from "../Components/NavBar.svelte";
 </script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cairo&family=Montserrat&family=Philosopher&family=Roboto+Slab&display=swap" rel="stylesheet">
-    <style>
-        body {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-        }
 
-        .centered {
-            text-align: center;
-        }
 
-        .work-in-progress {
-            font-family: 'Cairo', sans-serif;
-            color:black;
-            font-size: 60px;
-            margin-bottom: 20px;
-            margin-top: -265px;
-            margin-left: 0px;
-        }
-
-        .animated-image {
-            animation: bounce 1s infinite;
-            margin-top: 135px;
-            margin-left: 81px;
-        }
-
-        @keyframes bounce {
-            0%, 20%, 50%, 80%, 100% {
-                transform: translateY(0);
-            }
-            40% {
-                transform: translateY(-20px);
-            }
-            60% {
-                transform: translateY(-10px);
-            }
-        }
-    </style>
-<title>Work In Progress</title>
-<body>
-    <div class="centered">
-        <p class="work-in-progress">Under Construction</p>
-        <img src={image} alt="Work in progress" class="animated-image">
+<NavBar /> 
+<div class="flex flex-col items-center justify-center h-screen">
+    <div class="flex flex-col md:flex-row items-center p-10 space-y-5 md:space-x-5 bg-gray-100 rounded-xl">
+        <!-- Text Section -->
+        <div class="w-full md:w-1/2 flex flex-col space-y-3 text-center md:order-1">
+            <h1 class="text-7xl font-bold mb-2"> Sorry! </h1>
+            <h3 class="text-4xl font-semibold"> Under Construction</h3>
+            <hr class="my-3">
+            <span class="font-light my-4"> This page is still being built but will be available in the near future. In the meantime, you can check out the rest of the website </span>
+            <Link class="bg-blue-500 rounded-xl hover:bg-blue-700 p-3 w-full md:w-1/3 text-white mx-auto " to="/"> Return Home </Link>
+        </div>
+        <!-- Image Section -->
+        <img src={Construction} alt="Work in progress" class="w-full md:w-1/2 mx-auto md:order-2" width="300rem">
     </div>
-</body>
+</div>
+
