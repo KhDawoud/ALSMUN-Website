@@ -15,23 +15,23 @@
     </header>
     <main class="grid grid-cols-4 m-5 space-x-4 space-y-4 p-5">
         <div class="mt-4 ms-4">
-            <HeadShot name="Hussein Namek" title="Interviewer 1" image={PlaceHolder} quote=" "/>
+            <HeadShot name="Hussein Namek" title="Interviewer 1" image={PlaceHolder} quote = "Welcome to ALSMUNII! We can't wait to see you!"/>
         </div>  
-        <HeadShot name="Seif El Aref" title="Photographer 1" image={PlaceHolder} quote=""/>
-        <HeadShot name="Nazly Helmy" title="Interviewer 2" image={PlaceHolder} quote=" "/>
-        <HeadShot name="Sherine Wally" title="Photographer 2" image={PlaceHolder} quote=" "/>
-        <HeadShot name="Jana Samhan" title="Interviewer 3" image={PlaceHolder} quote=" "/>
-        <HeadShot name="Talia Seoudy" title="Photographer 3" image={PlaceHolder} quote=" "/>
-        <HeadShot name="Farida Shawky" title="Interviewer 4" image={PlaceHolder} quote=" "/>
-        <HeadShot name="Jana Shahin" title="Photographer 4" image={PlaceHolder} quote=" "/>
-        <HeadShot name="Aline Wahba" title="Interviewer 5" image={PlaceHolder} quote=" "/>
-        <HeadShot name="Judi Nassar" title="Photographer 5" image={PlaceHolder} quote=" "/>
-        <HeadShot name="Haya Abou El Nasr" title="Interviewer 6" image={PlaceHolder} quote=" "/>
-        <HeadShot name="Farah Ibrahim" title="Photographer 6" image={PlaceHolder} quote=" "/>
-        <HeadShot name="Farida Khalil" title="Interviewer 7" image={PlaceHolder} quote=" "/>
-        <HeadShot name="Habiba Khalil" title="Photographer 7" image={PlaceHolder} quote=" "/>
-        <HeadShot name="Magdi El Bittar" title="Interviewer 8" image={MagdiBittar} quote=" "/>
-        <HeadShot name="Selim El Meadawy" title="Photographer 8" image={SelimElMeadawy} quote=" "/>
+        <HeadShot name="Seif El Aref" title="Photographer 1" image={PlaceHolder} quote = "Welcome to ALSMUNII! We can't wait to see you!"/>
+        <HeadShot name="Nazly Helmy" title="Interviewer 2" image={PlaceHolder} quote = "Welcome to ALSMUNII! We can't wait to see you!"/>
+        <HeadShot name="Sherine Wally" title="Photographer 2" image={PlaceHolder} quote = "Welcome to ALSMUNII! We can't wait to see you!"/>
+        <HeadShot name="Jana Samhan" title="Interviewer 3" image={PlaceHolder} quote = "Welcome to ALSMUNII! We can't wait to see you!"/>
+        <HeadShot name="Talia Seoudy" title="Photographer 3" image={PlaceHolder} quote = "Welcome to ALSMUNII! We can't wait to see you!"/>
+        <HeadShot name="Farida Shawky" title="Interviewer 4" image={PlaceHolder} quote = "Welcome to ALSMUNII! We can't wait to see you!"/>
+        <HeadShot name="Jana Shahin" title="Photographer 4" image={PlaceHolder} quote = "Welcome to ALSMUNII! We can't wait to see you!"/>
+        <HeadShot name="Aline Wahba" title="Interviewer 5" image={PlaceHolder} quote = "Welcome to ALSMUNII! We can't wait to see you!"/>
+        <HeadShot name="Judi Nassar" title="Photographer 5" image={PlaceHolder} quote = "Welcome to ALSMUNII! We can't wait to see you!"/>
+        <HeadShot name="Haya Abou El Nasr" title="Interviewer 6" image={PlaceHolder} quote = "Welcome to ALSMUNII! We can't wait to see you!"/>
+        <HeadShot name="Farah Ibrahim" title="Photographer 6" image={PlaceHolder} quote = "Welcome to ALSMUNII! We can't wait to see you!"/>
+        <HeadShot name="Farida Khalil" title="Interviewer 7" image={PlaceHolder} quote = "Welcome to ALSMUNII! We can't wait to see you!"/>
+        <HeadShot name="Habiba Khalil" title="Photographer 7" image={PlaceHolder} quote = "Welcome to ALSMUNII! We can't wait to see you!"/>
+        <HeadShot name="Magdi El Bittar" title="Interviewer 8" image={MagdiBittar} quote = "Welcome to ALSMUNII! We can't wait to see you!"/>
+        <HeadShot name="Selim El Meadawy" title="Photographer 8" image={SelimElMeadawy} quote = "Welcome to ALSMUNII! We can't wait to see you!"/>
         
         
         
