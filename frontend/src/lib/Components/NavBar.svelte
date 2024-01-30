@@ -1,8 +1,8 @@
 <script lang="ts">
   import { Link } from "svelte-routing";
   import Dropdown from "./Dropdown.svelte";
-  import Logo from '../../assets/Logo.png'
-  import PFP from "../../assets/Default_pfp.svg";
+  import Logo from '../../assets/Icons/Logo.png'
+  import PFP from "../../assets/Icons/Default_pfp.svg";
 
   let profileDropdown: boolean = false;  
   let mobileMenu: boolean = false;
@@ -39,7 +39,7 @@
           <div class="hidden sm:ml-6 sm:block py-6">
             <div class="flex space-x-4">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-              <Link to='/about' class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Home</Link>
+              <Link to='/' class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Home</Link>
               <Link to='/meet' class="text-md text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 font-medium">Meet the Team of 2024</Link>
               <Dropdown text="Committees and Topics" options={{"Human Rights Council": "/Committees/HRC", "General Assembly": "/Committees/GA", "Economic & Social Council": "/Committees/ECOSOC", "International Court of Justice": "/Committees/ICJ", "Junior Committee": "/Committees/JC", "Security Council": "/Committees/SC"}} dark={true}/>
               <Dropdown text="Archive" options ={{"ALSMUN1":"/Construction", "ALSMUN2":"/Construction"}} dark = {true}/>
@@ -83,7 +83,7 @@
             <div class="space-y-2 px-2 pb-3 pt-2">
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                 <div class="block sm:inline-block">
-                    <Link to='/about' class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Home</Link>
+                    <Link to='/' class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Home</Link>
                 </div>
                 <div class="block sm:inline-block">
                     <Link to='/meet' class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Meet The Team of 2024</Link>

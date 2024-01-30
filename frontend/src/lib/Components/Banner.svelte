@@ -1,5 +1,5 @@
 <script lang="ts"> 
-    import Background from '../../assets/Team2.jpg';
+    import Background from '../../assets/Background/Team2.jpg';
 </script>
 
 
