@@ -1,14 +1,13 @@
 <script>
     import NavBar from "../Components/NavBar.svelte";
-    import SchoolBackground from '../../assets/Background2.jpg';
-    import Tiktok from "../../assets/Icons/Tiktok.ico";
+    import SchoolBackground from '../../assets/Background/Background2.jpg';
     import Instagram from "../../assets/Icons/Instagram.ico";
     import Image1 from "../../assets/Home/1.jpg"
     import JBSignature from "../../assets/Signatures/JB.png";
     import Carousel from "../Components/Carousel.svelte";
-    import Schedule1 from "../../assets/Schedule1.jpg";
-    import Schedule2 from "../../assets/Schedule2.jpg";
-    import Schedule3 from "../../assets/Schedule3.jpg";
+    import Schedule1 from "../../assets/Home/Schedule1.jpg";
+    import Schedule2 from "../../assets/Home/Schedule2.jpg";
+    import Schedule3 from "../../assets/Home/Schedule3.jpg";
     let images = [Schedule1, Schedule2, Schedule3]
 </script>
 

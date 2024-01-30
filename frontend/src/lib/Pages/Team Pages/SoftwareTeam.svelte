@@ -19,8 +19,8 @@
             <GroupSection link={null} noReadMe={true} header="Khaled Dawoud - Head of Software" text={null} image={KhaledDawoud} />
         </div>
             <div class="space-x-0 space-y-2 md:grid md:grid-flow-col md:grid-cols-2 md:space-x-3 md:space-y-0">
-                <HeadShot name="Ali El Guindy" title="UI Designer" image={AliElGuindy} quote="Sometimes all you need is a little imaginations"/>
-                <HeadShot name="Muhammed El Khedr" title="Frontend Developer" image={MuhammedElKhedr} quote="Difficult roads often lead to beautiful destinations"/>
+                <HeadShot name="Ali El Guindy" title="UI Designer" image={AliElGuindy} quote="Hi all, I'm Ali. I was the UI designer for ALSMUN's website.I hope you like it."/>
+                <HeadShot name="Muhammed El Khedr" title="Frontend Developer" image={MuhammedElKhedr} quote="Hey everybody, my name is Muhammad Elkhedr and I was a front-end developer for ALSMUN's website. We spent many enjoyable months working on this, and I hope you enjoy it too."/>
             </div>
     </div>
 </body>

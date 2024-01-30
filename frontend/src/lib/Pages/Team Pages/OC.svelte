@@ -3,11 +3,11 @@
     import GroupSection from "../../Components/GroupSection.svelte";
     import Media from '../../../assets/OC/Media/Media.jpg';
     import Catering from '../../../assets/OC/Catering/Catering.jpg';
-    import MahmoudHelmy from '../../../assets/Mahmoud Helmy.jpg';
-    import OmarGabr from '../../../assets/Omar Gabr.jpg';
-    import SaraTalaat from '../../../assets/Sara Talaat.jpg';
-    import MostafaDawoud from '../../../assets/Mostafa Dawoud.jpg';
-    import HalaNasr from '../../../assets/Hala Nasr.jpg';
+    import MahmoudHelmy from '../../../assets/Heads/Mahmoud Helmy.jpg';
+    import OmarGabr from '../../../assets/Heads/Omar Gabr.jpg';
+    import SaraTalaat from '../../../assets/Heads/Sara Talaat.jpg';
+    import MostafaDawoud from '../../../assets/Heads/Mostafa Dawoud.jpg';
+    import HalaNasr from '../../../assets/Heads/Hala Nasr.jpg';
     import HeadShot from "../../Components/HeadShot.svelte";
     import SoftwareTeam from "../../../assets/OC/SoftwareTeam/SoftwareTeam.jpg";
     import Banner from '../../Components/Banner.svelte';

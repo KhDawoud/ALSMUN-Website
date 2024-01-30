@@ -3,7 +3,7 @@
     import HeadShot from "../../Components/HeadShot.svelte";
     import SelimElMeadawy from "../../../assets/OC/Media/Selim Meadawy - Media and Photography.jpg"
     import MagdiBittar from "../../../assets/OC/Media/MagdiBittar.jpg";
-    import PlaceHolder from "../../../assets/PlaceHolder.jpeg"
+    import PlaceHolder from "../../../assets/Icons/Default_pfp.svg"
     import GroupSection from "../../Components/GroupSection.svelte";
 </script>
   

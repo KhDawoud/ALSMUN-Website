@@ -6,7 +6,7 @@
 
 <script lang="ts">
     import { navigate } from 'svelte-routing'
-    import LoginBackground from '../../assets/LoginBackground5.jpg'
+    import LoginBackground from '../../assets/Background/LoginBackground5.jpg'
     let username: string;
     let password: string;
     let isLoading: boolean;
