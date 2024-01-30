@@ -8,7 +8,7 @@
   export let noReadMe: boolean | undefined;
   export let signature: undefined | string; 
 
-  text = !text ? "" : text
+  text = !text ? "Welcome to ALSMUNII! We can't wait to see you!" : text
 
 </script>
 

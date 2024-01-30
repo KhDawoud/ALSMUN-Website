@@ -27,8 +27,8 @@
       
       
       <div class="space-y-2 space-x-0 md:row-span-1 md:grid md:grid-col-3 md:grid-flow-col md:space-x-2 md:space-y-0 w-75">
-        <HeadShot name="Mostafa Dawoud" title="Room Setup" image={MostafaDawoud} quote="" />
-        <HeadShot name="Hala Nasr" title="Awards & Certificates" image={HalaNasr} quote="" />
-        <HeadShot name="Sara Talaat" title="Head of Merchandise" image={SaraTalaat} quote="" />
+        <HeadShot name="Mostafa Dawoud" title="Room Setup" image={MostafaDawoud} quote="Welcome to ALSMUNII! We can't wait to see you!"/>
+        <HeadShot name="Hala Nasr" title="Awards & Certificates" image={HalaNasr} quote = "Welcome to ALSMUNII! We can't wait to see you!" />
+        <HeadShot name="Sara Talaat" title="Head of Merchandise" image={SaraTalaat} quote = "Welcome to ALSMUNII! We can't wait to see you!" />
       </div>
   </main>
