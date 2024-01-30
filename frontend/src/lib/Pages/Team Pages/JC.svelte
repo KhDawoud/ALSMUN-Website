@@ -7,7 +7,7 @@
     import GroupSection from "../../Components/GroupSection.svelte";
     import YousefKhater from"../../../assets/AC/JC/Yousef Khater.jpg";
     import AdamSalem from"../../../assets/AC/JC/Adam Salem.jpg";
-    import PlaceHolder from "../../../assets/Icons/Default_pfp.svg"
+    import JoudKhaled from "../../../assets/AC/JC/Joud Khaled.jpg"
   </script>
   
       <NavBar />
@@ -31,7 +31,7 @@
             <GroupSection link={null} noReadMe={true} header="Yousef Khater - Chair of JC B" text={"Hello, my name is Yousef Khater and I'm the chair for Junior Committee B. Being involved in MUN's has truly made me a more confident and well spoken individual, and I'm really excited to attend the conference and meet the next generation of bright delegates. I hope that during the ALSMUN, I will be able to, as a chair for the first time, alongside my co chairs, provide these young delegates with a great start to their MUN journeys."} image={YousefKhater} />
             <section class="space-x-0 space-y-2 md:grid md:grid-flow-col md:grid-cols-2 md:space-x-3 md:space-y-0">
                 <HeadShot name="Adam Salem" title="Co-Chair" image={AdamSalem} quote="Hi all! My name is Adam Salem and I'll be this year's co-chair for junior committee B. I'm sure this committee will be one of the best in all of ALSMUN and I'm really looking forward to meeting everyone and making this MUN memorable!"/>
-                <HeadShot name="Joud Khaled" title="Co-Chair" image={PlaceHolder} quote="Hey everyone! My name is Joud Abdelmaguid and I am Co-chairing for junior committee B this year. I am really looking forward to exceeding my knowledge and skills through this ALSMUN experience and hope to encourage all delegates to continue pursuing their MUN journey."/>
+                <HeadShot name="Joud Khaled" title="Co-Chair" image={JoudKhaled} quote="Hey everyone! My name is Joud Abdelmaguid and I am Co-chairing for junior committee B this year. I am really looking forward to exceeding my knowledge and skills through this ALSMUN experience and hope to encourage all delegates to continue pursuing their MUN journey."/>
             </section>
         </section>
   

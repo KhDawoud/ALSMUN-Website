@@ -12,11 +12,25 @@
     <InfoText 
       image={TopicA}
       title="The Extradition of Julian Assange"
-      paragraphB="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim diam vulputate ut pharetra sit amet aliquam. Aliquam ut porttitor leo a diam sollicitudin tempor id. Faucibus turpis in eu mi. Auctor eu augue ut lectus arcu bibendum. Mattis pellentesque id nibh tortor id aliquet. Suscipit tellus mauris a diam maecenas. Arcu risus quis varius quam quisque id. Maecenas volutpat blandit aliquam etiam erat velit. Luctus accumsan tortor posuere ac ut consequat semper viverra.
-      Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant. Nulla malesuada pellentesque elit eget gravida. Bibendum neque egestas congue quisque. Purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae. Vulputate odio ut enim blandit. Mus mauris vitae ultricies leo integer malesuada nunc. Augue interdum velit euismod in pellentesque massa placerat duis. Netus et malesuada fames ac turpis. Adipiscing bibendum est ultricies integer quis auctor elit sed vulputate. Integer vitae justo eget magna fermentum iaculis. Egestas diam in arcu cursus euismod quis viverra nibh. Placerat orci nulla pellentesque dignissim enim. Diam sollicitudin tempor id eu nisl nunc. Feugiat pretium nibh ipsum consequat nisl vel. Sit amet nisl purus in mollis nunc sed id. A scelerisque purus semper eget. Vitae auctor eu augue ut lectus arcu bibendum at.
-      Sit amet tellus cras adipiscing enim eu turpis egestas."
-      paragraphA="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. elit pellentesque habitant. Nulla malesuada pellentesque elit eget gravida. Bibendum neque egestas congue quisque. Purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae. Vulputate odio ut enim blandit. Mus mauris vitae ultricies leo integer malesuada nunc. Augue interdum velit euismod in pellentesque massa placerat duis. Netus et malesuada fames ac turpis. Adipiscing bibendum est ultricies integer quis auctor elit sed vulputate. Integer"
-    />
+      paragraphB=" The legal case of the extradition of julian assange is
+      one that is essential in deeming whether his actions, and the actions that the United states
+      have responded to him with, have any legal grounds, and the debate over this case that will
+      occur shortly will decide where this paramount topic, changing the realm of intelligence and
+      espionage worldwide, will go in the future."
+      paragraphA="The case of Julian Assange is of utmost importance to the modern world of politics, and the
+      crucial role intelligence holds therein. The case is not just about the dealings of a nation with
+      someone they deem to be a threat to their security, but also about what entails national
+      security and where the court of justice must draw lines within the laws surrounding security.
+      As far back as war has existed, espionage has always played a key role, and Julian Assange’s
+      foundation of wikileaks.org has been one of the most significant events to ever occur in this
+      realm. Wikileaks.org has published hundreds of legal and governmental documents from all
+      sovereign bodies all over the world, revealing things ranging from videos of US soldiers
+      committing war crimes in the middle east, CIA documents filled with incredibly corrupt and
+      unjust plans, and more beyond what the mind can imagine. Assange is one of the most
+      controversial figures of the 21st century, someone despised by governments worldwide but
+      seen as a hero by thousands of others."
+      link="https://drive.google.com/file/d/17yv_UuMBIyUGpYLu67R8iKwmYhFlndFI/view?usp=sharing"
+      />
   </div>
   
   

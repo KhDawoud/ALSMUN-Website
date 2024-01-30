@@ -7,7 +7,7 @@
     import MalakShawky from "../../../assets/AC/GA-B/Malak Shawky-GAB cochair.jpg"
     import CynthiaEzzi from "../../../assets/AC/GA-B/Cynthia Ezzi - GAB  co chair.jpg"
     import OmarFazary from "../../../assets/AC/GA-B/Omar Fazary.jpg"
-    import PlaceHolder from "../../../assets/Icons/Default_pfp.svg"
+    import YoussefSherif from "../../../assets/AC/GA-A/Youssef Sherif.jpg"
 </script>
   
 
@@ -18,10 +18,10 @@
         <hr class="mb-2 mt-4">  
     </header>
     <section class="p-10 space-y-6">
-        <GroupSection link={null} noReadMe={true} header="Karim ElGuindy - Chair of GA A" text={null} image={KarimElguindy} />
+        <GroupSection link={null} noReadMe={true} header="Karim ElGuindy - Chair of GA A" text="Hello everybody, my name is Karim Guindy I will be the chair of GA A this mun. I’m very excited to be chairing for the first open ALSMUN that will be happening this year. I hope this mun will be great." image={KarimElguindy} />
         <section class="space-x-0 space-y-2 md:grid md:grid-flow-col md:grid-cols-2 md:space-x-3 md:space-y-0">
             <HeadShot name="Layla Mourad" title="Co-Chair" image={LaylaMourad} quote="Welcome to ALSMUNII! We can't wait to see you!"/>
-            <HeadShot name="Youssef Sheriff" title="Co-Chair" image={PlaceHolder} quote="Hello everyone my name is Youssef and I'm honoured to help in charing GA A as it is a great committee for topics that are too broad for other committees but still just as crucial to our world."/>
+            <HeadShot name="Youssef Sheriff" title="Co-Chair" image={YoussefSherif} quote="Hello everyone my name is Youssef and I'm honoured to help in charing GA A as it is a great committee for topics that are too broad for other committees but still just as crucial to our world."/>
         </section>
     </section>
     

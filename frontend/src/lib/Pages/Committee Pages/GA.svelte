@@ -13,19 +13,32 @@
   <InfoText 
     image={TopicA}
     title="Topic 1: The Question of Whether Social and Security Concerns Call for Niqab Baba and Regulation"
-    paragraphB="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim diam vulputate ut pharetra sit amet aliquam. Aliquam ut porttitor leo a diam sollicitudin tempor id. Faucibus turpis in eu mi. Auctor eu augue ut lectus arcu bibendum. Mattis pellentesque id nibh tortor id aliquet. Suscipit tellus mauris a diam maecenas. Arcu risus quis varius quam quisque id. Maecenas volutpat blandit aliquam etiam erat velit. Luctus accumsan tortor posuere ac ut consequat semper viverra.
-    Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant. Nulla malesuada pellentesque elit eget gravida. Bibendum neque egestas congue quisque. Purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae. Vulputate odio ut enim blandit. Mus mauris vitae ultricies leo integer malesuada nunc. Augue interdum velit euismod in pellentesque massa placerat duis. Netus et malesuada fames ac turpis. Adipiscing bibendum est ultricies integer quis auctor elit sed vulputate. Integer vitae justo eget magna fermentum iaculis. Egestas diam in arcu cursus euismod quis viverra nibh. Placerat orci nulla pellentesque dignissim enim. Diam sollicitudin tempor id eu nisl nunc. Feugiat pretium nibh ipsum consequat nisl vel. Sit amet nisl purus in mollis nunc sed id. A scelerisque purus semper eget. Vitae auctor eu augue ut lectus arcu bibendum at.
-    Sit amet tellus cras adipiscing enim eu turpis egestas."
-    paragraphA="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. elit pellentesque habitant. Nulla malesuada pellentesque elit eget gravida. Bibendum neque egestas congue quisque. Purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae. Vulputate odio ut enim blandit. Mus mauris vitae ultricies leo integer malesuada nunc. Augue interdum velit euismod in pellentesque massa placerat duis. Netus et malesuada fames ac turpis. Adipiscing bibendum est ultricies integer quis auctor elit sed vulputate. Integer"
-  />
+    paragraphB=""
+    paragraphA="The issue of whether social and security concerns call for niqab bans and regulations
+    has been increasingly brought into the spotlight in recent years. Some countries, such as
+    France and Belgium, have placed certain bans and regulations for the niqab and other face
+    coverings, while others still allow it as a form of freedom and religious expression. This has
+    raised a number of complex ethical, legal, social, and security questions."
+    link="https://drive.google.com/file/d/1iVrRiQZTnYRWFAETbo3n_43Ftrqlv7dA/view?usp=sharing"
+    />
 
   <InfoText 
     image={TopicB} 
     title="Topic 2: Developing Internal Frameworks to Combat Animal Cruelty and Unethical Practices in Slaughterhouses and Fashion Industries"
-    paragraphB="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim diam vulputate ut pharetra sit amet aliquam. Aliquam ut porttitor leo a diam sollicitudin tempor id. Faucibus turpis in eu mi. Auctor eu augue ut lectus arcu bibendum. Mattis pellentesque id nibh tortor id aliquet. Suscipit tellus mauris a diam maecenas. Arcu risus quis varius quam quisque id. Maecenas volutpat blandit aliquam etiam erat velit. Luctus accumsan tortor posuere ac ut consequat semper viverra.
-    Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant. Nulla malesuada pellentesque elit eget gravida. Bibendum neque egestas congue quisque. Purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae. Vulputate odio ut enim blandit. Mus mauris vitae ultricies leo integer malesuada nunc. Augue interdum velit euismod in pellentesque massa placerat duis. Netus et malesuada fames ac turpis. Adipiscing bibendum est ultricies integer quis auctor elit sed vulputate. Integer vitae justo eget magna fermentum iaculis. Egestas diam in arcu cursus euismod quis viverra nibh. Placerat orci nulla pellentesque dignissim enim. Diam sollicitudin tempor id eu nisl nunc. Feugiat pretium nibh ipsum consequat nisl vel. Sit amet nisl purus in mollis nunc sed id. A scelerisque purus semper eget. Vitae auctor eu augue ut lectus arcu bibendum at.
-    Sit amet tellus cras adipiscing enim eu turpis egestas."
-    paragraphA="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. elit pellentesque habitant. Nulla malesuada pellentesque elit eget gravida. Bibendum neque egestas congue quisque. Purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae. Vulputate odio ut enim blandit. Mus mauris vitae ultricies leo integer malesuada nunc. Augue interdum velit euismod in pellentesque massa placerat duis. Netus et malesuada fames ac turpis. Adipiscing bibendum est ultricies integer quis auctor elit sed vulputate. Integer"
+    paragraphB="
+    This not only raises ethical concerns but also poses serious questions about the sustainability
+    and morality of our food production system. As we delve into the complexities of animal
+    cruelty in both sectors, it becomes increasingly evident that urgent action is needed to
+    address these systemic issues and ensure the well-being of both industry workers and the
+    animals involved."
+    paragraphA="The exploitation of animals in slaughterhouses and the fashion industry has long
+    been a contentious issue with far-reaching consequences. Historically, animals have been
+    utilized in the clothing industry for their hides, fur, and other materials, leading to the
+    proliferation of unethical practices in the pursuit of profit. This exploitation experienced a
+    significant boom during periods of industrialization and globalization, as demand for
+    affordable clothing surged. However, this expansion came at the expense of animal welfare,
+    with inhumane treatment and poor handling becoming commonplace in slaughterhouses."
+    link="https://drive.google.com/file/d/1Lf1ekdt10Jc4dutXXaw4ylFpeNpOC2rA/view?usp=sharing"
     />
 </div>
 

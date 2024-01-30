@@ -14,20 +14,42 @@
     <InfoText 
       image={TopicA}
       title="The Issue of the Petro Dollar"
-      paragraphB="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim diam vulputate ut pharetra sit amet aliquam. Aliquam ut porttitor leo a diam sollicitudin tempor id. Faucibus turpis in eu mi. Auctor eu augue ut lectus arcu bibendum. Mattis pellentesque id nibh tortor id aliquet. Suscipit tellus mauris a diam maecenas. Arcu risus quis varius quam quisque id. Maecenas volutpat blandit aliquam etiam erat velit. Luctus accumsan tortor posuere ac ut consequat semper viverra.
-      Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant. Nulla malesuada pellentesque elit eget gravida. Bibendum neque egestas congue quisque. Purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae. Vulputate odio ut enim blandit. Mus mauris vitae ultricies leo integer malesuada nunc. Augue interdum velit euismod in pellentesque massa placerat duis. Netus et malesuada fames ac turpis. Adipiscing bibendum est ultricies integer quis auctor elit sed vulputate. Integer vitae justo eget magna fermentum iaculis. Egestas diam in arcu cursus euismod quis viverra nibh. Placerat orci nulla pellentesque dignissim enim. Diam sollicitudin tempor id eu nisl nunc. Feugiat pretium nibh ipsum consequat nisl vel. Sit amet nisl purus in mollis nunc sed id. A scelerisque purus semper eget. Vitae auctor eu augue ut lectus arcu bibendum at.
-      Sit amet tellus cras adipiscing enim eu turpis egestas."
-      paragraphA="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. elit pellentesque habitant. Nulla malesuada pellentesque elit eget gravida. Bibendum neque egestas congue quisque. Purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae. Vulputate odio ut enim blandit. Mus mauris vitae ultricies leo integer malesuada nunc. Augue interdum velit euismod in pellentesque massa placerat duis. Netus et malesuada fames ac turpis. Adipiscing bibendum est ultricies integer quis auctor elit sed vulputate. Integer"
-    />
+      paragraphB=""
+      paragraphA="In August 1971, President Nixon severed the direct convertibility of U.S. dollars into gold. With
+      this decision, the international currency market, which had become increasingly reliant on the
+      dollar since the enactment of the Bretton Woods Agreement, lost its formal connection to gold."
+      link="https://drive.google.com/file/d/1Bv9Zk0z5lJTBCEyFLgcJwA2U8mJhmrMk/view?usp=sharing"    
+      />
 
     <InfoText 
       image={TopicB}
       title="Topic 2: The Issue of Migration and Refugees"
-      paragraphB="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim diam vulputate ut pharetra sit amet aliquam. Aliquam ut porttitor leo a diam sollicitudin tempor id. Faucibus turpis in eu mi. Auctor eu augue ut lectus arcu bibendum. Mattis pellentesque id nibh tortor id aliquet. Suscipit tellus mauris a diam maecenas. Arcu risus quis varius quam quisque id. Maecenas volutpat blandit aliquam etiam erat velit. Luctus accumsan tortor posuere ac ut consequat semper viverra.
-      Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant. Nulla malesuada pellentesque elit eget gravida. Bibendum neque egestas congue quisque. Purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae. Vulputate odio ut enim blandit. Mus mauris vitae ultricies leo integer malesuada nunc. Augue interdum velit euismod in pellentesque massa placerat duis. Netus et malesuada fames ac turpis. Adipiscing bibendum est ultricies integer quis auctor elit sed vulputate. Integer vitae justo eget magna fermentum iaculis. Egestas diam in arcu cursus euismod quis viverra nibh. Placerat orci nulla pellentesque dignissim enim. Diam sollicitudin tempor id eu nisl nunc. Feugiat pretium nibh ipsum consequat nisl vel. Sit amet nisl purus in mollis nunc sed id. A scelerisque purus semper eget. Vitae auctor eu augue ut lectus arcu bibendum at.
-      Sit amet tellus cras adipiscing enim eu turpis egestas."
-      paragraphA="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. elit pellentesque habitant. Nulla malesuada pellentesque elit eget gravida. Bibendum neque egestas congue quisque. Purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae. Vulputate odio ut enim blandit. Mus mauris vitae ultricies leo integer malesuada nunc. Augue interdum velit euismod in pellentesque massa placerat duis. Netus et malesuada fames ac turpis. Adipiscing bibendum est ultricies integer quis auctor elit sed vulputate. Integer"
-    />
+      paragraphB="Economic differences between host communities and incoming
+      refugees or immigrants can cause stress. Competition for jobs and goods can create social conflict and
+      hinder the economic integration of displaced people.
+      Host countries struggle to provide adequate resources and programs to the influx of refugees,
+      creating problems in meeting basic needs such as housing, health and education
+      Policy ineffectiveness: Inadequate or inadequate policy implementation on the integration of refugees
+      and immigrants can exacerbate the issue. Inadequate support mechanisms and a lack of a clear path
+      to citizenship can also hinder successful integration. Values and social practices between refugees and
+      host communities can create barriers to effective communication and understanding, preventing
+      social integration. Geopolitical tensions and instability in refugee areas of origin may contribute to
+      the perpetuation of this issue. The continued influx of displaced persons places additional stress on
+      host countries."
+      paragraphA="The issue of integration and inclusion of refugees and migrants in host countries relates to the
+      challenges and obstacles faced by individuals forced to flee their home countries due to conflict,
+      persecution, or other crises.
+      The issue stems primarily from undesirable migration for refugees. They are often forced to leave
+      their homes as a result of war, violence, or other life-threatening situations, which can cause trauma
+      and difficulty in adjusting. Many host countries have an immigrant background, a complex system
+      that poses enormous challenges for refugees and migrants. Legal barriers, such as restrictive asylum
+      procedures or lack of access to employment opportunities, can impede the integration process.
+      Negative and negative perceptions of refugees and immigrants by the host community can contribute
+      to their social exclusion. Discrimination based on national, ethnic, and religious beliefs can hinder the
+      establishment of strong relationships. 
+      "
+      link="https://drive.google.com/file/d/1unzlp1B1RRio-2mPQjpREES_gC0CCBsc/view?usp=sharing"
+      />
   </div>
   
   

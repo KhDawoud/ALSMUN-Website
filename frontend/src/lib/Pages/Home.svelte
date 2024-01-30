@@ -8,6 +8,7 @@
     import Schedule1 from "../../assets/Home/Schedule1.jpg";
     import Schedule2 from "../../assets/Home/Schedule2.jpg";
     import Schedule3 from "../../assets/Home/Schedule3.jpg";
+    import RahmaZein from "../../assets/Home/Rahma Zein.jpg"
     let images = [Schedule1, Schedule2, Schedule3]
 </script>
 
@@ -82,10 +83,28 @@
 </div>
 
 
-<h1 class="px-8 text-2xl md:text-4xl font-semibold opacity-30 my-10"> Finally...</h1>
+<h1 class="px-8 text-2xl md:text-4xl font-semibold opacity-30 my-10"> And Finally A Quick Word About...</h1>
 
-<div class="mx-12">
-    <header>Remaining Content</header>
+<div class="px-8 mt-10 mb-8">
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-3">
+            <div class="pt-3 pb-5 md:py-6 md:px-7 px-4 flex flex-col justify-between">
+                <div class="mb-4 md:mb-0">
+                    <div class="text-center font-bold text-4xl text-gray-800 mb-3">
+                        <header>Our Guest Speaker</header>
+                        <hr class="my-3 border-none bg-gradient-to-r from-blue-500 to-purple-500 h-1">
+                    </div>
+                    <div>
+                        <article class="md:mt-6 md:text-base text-sm ">
+                            Rahma Zein is an Egyptian podcaster and Editor in Chief of Scoop Empire. She is most recently recognized for fearlessly raising her voice to confront CNN's English reporter, Clarissa Ward. In the now-viral footage, Zein's words are directed towards Ward, questioning her empathy and humanity during the ongoing events. Zein had spent the previous night sleeping in a tent at the Rafah crossing, hearing airstrikes land on Gaza's inhabitants on the other side of the border. Hundreds of volunteers, including her, were waiting for the border to open in order to send aid into Gaza. Zein received an invitation to appear on Prominent British broadcaster Piers Morgan's talk show, "Uncensored." who is well-known for doing provocative interviews. Rahma contested the problematic worldwide rhetoric surrounding Arabs in favor of equality in Palestine during the 16-minute conversation, as well as the purposefully sensationalist perspective Morgan was attempting to put her in. Since its initial release, the interview has received over 3.2 million views on YouTube, mainly positive comments for Rahma's perspectives. Rahma Zein's statements speak to a great number of young people who stand up for justice and the truth in the face of injustice. Her powerful rhetoric demonstrates her commitment to humanitarian causes and a sense of responsibility. More powerful and encouraging voices like Rahma Zein are needed in the world. She is a brilliant example of how young people can take on social duty and fight for justice and human rights.
+                        </article>
+                    </div>
+                </div> 
+            </div>
+            <div class="relative flex">
+                <img src={RahmaZein} alt="First ALSMUN Confrenece" class="object-cover w-full"/>
+            </div>
+        </section>
+    <hr>
 </div>
 
 

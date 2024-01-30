@@ -39,7 +39,7 @@
                 </Link>
             {:else if signature}
                 <div>
-                    <img src={signature} alt="Signature" width=70>
+                    <img src={signature} alt="Signature" width=70 height=70>
                 </div>
             {/if}
         </div>

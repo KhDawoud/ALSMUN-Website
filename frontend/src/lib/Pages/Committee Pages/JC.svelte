@@ -14,20 +14,37 @@
     <InfoText 
       image={TopicA}
       title="Water Scarcity and Ozone Depeletion"
-      paragraphB="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim diam vulputate ut pharetra sit amet aliquam. Aliquam ut porttitor leo a diam sollicitudin tempor id. Faucibus turpis in eu mi. Auctor eu augue ut lectus arcu bibendum. Mattis pellentesque id nibh tortor id aliquet. Suscipit tellus mauris a diam maecenas. Arcu risus quis varius quam quisque id. Maecenas volutpat blandit aliquam etiam erat velit. Luctus accumsan tortor posuere ac ut consequat semper viverra.
-      Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant. Nulla malesuada pellentesque elit eget gravida. Bibendum neque egestas congue quisque. Purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae. Vulputate odio ut enim blandit. Mus mauris vitae ultricies leo integer malesuada nunc. Augue interdum velit euismod in pellentesque massa placerat duis. Netus et malesuada fames ac turpis. Adipiscing bibendum est ultricies integer quis auctor elit sed vulputate. Integer vitae justo eget magna fermentum iaculis. Egestas diam in arcu cursus euismod quis viverra nibh. Placerat orci nulla pellentesque dignissim enim. Diam sollicitudin tempor id eu nisl nunc. Feugiat pretium nibh ipsum consequat nisl vel. Sit amet nisl purus in mollis nunc sed id. A scelerisque purus semper eget. Vitae auctor eu augue ut lectus arcu bibendum at.
-      Sit amet tellus cras adipiscing enim eu turpis egestas."
-      paragraphA="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. elit pellentesque habitant. Nulla malesuada pellentesque elit eget gravida. Bibendum neque egestas congue quisque. Purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae. Vulputate odio ut enim blandit. Mus mauris vitae ultricies leo integer malesuada nunc. Augue interdum velit euismod in pellentesque massa placerat duis. Netus et malesuada fames ac turpis. Adipiscing bibendum est ultricies integer quis auctor elit sed vulputate. Integer"
-    />
+      paragraphB=""
+      paragraphA="The issue of water and ozone depletion has increased greatly in severity in the past 25 years
+      with the ozone layer’s thickness decreasing a total of 5% worldwide and the access to water being
+      restricted to 46% of the population. The effects of this are drastic to human health. Ozone depletion
+      can cause increased amounts of UV radiation to reach the Earth which can lead to more cases of skin
+      cancer, especially melanoma, considered the most fatal of all skin cancers. Water depletion leads to an
+      increased amount of droughts, the effect of these on humans being malnutrition, increased risk of
+      diseases and more. Severe drought can also affect air quality by making wildfires and dust storms
+      more likely, increasing health risk in people already impacted by lung diseases or with heart diseases."
+      link="https://drive.google.com/file/d/1_HH-BGOfTFCeybaEW_GvcGgD3FsbB4eR/view?usp=sharing"
+      />
 
     <InfoText 
       image={TopicB}
-      title="Topic 2: The Women's Rights Issue in Iran"
-      paragraphB="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim diam vulputate ut pharetra sit amet aliquam. Aliquam ut porttitor leo a diam sollicitudin tempor id. Faucibus turpis in eu mi. Auctor eu augue ut lectus arcu bibendum. Mattis pellentesque id nibh tortor id aliquet. Suscipit tellus mauris a diam maecenas. Arcu risus quis varius quam quisque id. Maecenas volutpat blandit aliquam etiam erat velit. Luctus accumsan tortor posuere ac ut consequat semper viverra.
-      Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant. Nulla malesuada pellentesque elit eget gravida. Bibendum neque egestas congue quisque. Purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae. Vulputate odio ut enim blandit. Mus mauris vitae ultricies leo integer malesuada nunc. Augue interdum velit euismod in pellentesque massa placerat duis. Netus et malesuada fames ac turpis. Adipiscing bibendum est ultricies integer quis auctor elit sed vulputate. Integer vitae justo eget magna fermentum iaculis. Egestas diam in arcu cursus euismod quis viverra nibh. Placerat orci nulla pellentesque dignissim enim. Diam sollicitudin tempor id eu nisl nunc. Feugiat pretium nibh ipsum consequat nisl vel. Sit amet nisl purus in mollis nunc sed id. A scelerisque purus semper eget. Vitae auctor eu augue ut lectus arcu bibendum at.
-      Sit amet tellus cras adipiscing enim eu turpis egestas."
-      paragraphA="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. elit pellentesque habitant. Nulla malesuada pellentesque elit eget gravida. Bibendum neque egestas congue quisque. Purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae. Vulputate odio ut enim blandit. Mus mauris vitae ultricies leo integer malesuada nunc. Augue interdum velit euismod in pellentesque massa placerat duis. Netus et malesuada fames ac turpis. Adipiscing bibendum est ultricies integer quis auctor elit sed vulputate. Integer"
-    />
+      title="Topic 2: The Issue of Women's Rights in Iran"
+      paragraphB="Iranian women have had a number of challenges related to their
+      position in the community and in their careers. The percentage of women in the workforce dropped
+      to 14% in 2020 from just 18% in 2019. This indicates that companies in Iran prefer to hire men over
+      women, not because of ability level but because of gender. The Iranian government also supports and
+      encourages the marriage of 13-year-old girls, despite the potential biological consequences of such an
+      early marriage."
+      paragraphA="Problems regarding human rights issues in Iran are many, however the biggest breach of human
+      rights is heavily centred around the Iranian Government and their authorities that have been
+      enforcing laws that strip Muslim women of their right of choice as to whether they choose to wear a
+      hijab or not. Hijab, a head scarf that is worn so that no hair is shown to the public, became
+      compulsory in Iran after the death of 22 year old Mahsa Amini who got arrested for not wearing her
+      hijab properly and for wearing skinny jeans. This triggered a revolution which heavily opposed the
+      idea of the hijab; however recently, Iran’s morality police have started doing street patrols to ensure
+      all women are wearing hijabs."
+      link="https://drive.google.com/file/d/1VHa7JUhDs1Byvaxe-mLhFDxWNM4GvH0F/view?usp=sharing"
+      />
   </div>
   
   

@@ -70,7 +70,7 @@
               {/if}
             </div>
           {:else}
-              <Link to='/LogIn' class="hidden sm:block bg-blue-500 rounded-xl px-6 py-3  text-white hover:rounded-3xl hover:px-6 transition-all ease-in duration-150">Sign Up</Link>
+              <Link to='/LogIn' class="hidden sm:block bg-blue-500 rounded-xl px-6 py-3  text-white hover:rounded-3xl hover:px-6 transition-all ease-in duration-150">Sign In</Link>
           {/if}
 
         </div>
@@ -95,7 +95,7 @@
                     <Dropdown text="Archive" options={{"ALSMUN1":"/Construction", "ALSMUN2":"/Construction"}} dark={true}/>
                 </div>
                 <div class="block sm:inline-block">
-                    <Link to='/LogIn' class="bg-blue-500 text-white hover:bg-blue-700 hover:text-white block rounded-md px-3 py-2 text-center font-medium">Sign Up</Link>
+                    <Link to='/LogIn' class="bg-blue-500 text-white hover:bg-blue-700 hover:text-white block rounded-md px-3 py-2 text-center font-medium">Sign In</Link>
                 </div>
             </div>
         </div>
