@@ -20,15 +20,15 @@
   
   <main class="grid grid-flow-row grid-cols-1 space-y-5 m-5 px-3">
       <GroupSection noReadMe={true} header="Mahmoud Helmy - Head of Confrence Logistics" link={null} text={null} image={MahmoudHelmy} />
-      <GroupSection noReadMe={true} header="Omar Gabr - Head of Aesthetics & Branding" link={null} text={null} image={OmarGabr} />
+      <GroupSection noReadMe={true} header="Omar Gabr - Head of Aesthetics & Branding" link={null} text={"Working as the head of aesthetics and branding with the other heads for ALSMUN has been a very enjoyable experience. Although we had many ups and downs and many nights were spent managing all requirements for the media team and aiding with logistic andademic procedures, ultimately working for the media team at alsmun has been very rewarding, as the branding and aesthetics part of mun conferences is often overlooked despite being equally as important as academics for delegate enjoyment. We hope you enjoy ALSMUN! "} image={OmarGabr} />
       <GroupSection noReadMe={false} header="Software Team" link="/meet/oc/softwareteam" text={null} image={SoftwareTeam} />
       <GroupSection noReadMe={false} header="Media Team" link="/meet/oc/media" text={null} image={Media} />
       <GroupSection noReadMe={false} header="Catering Team" link='/meet/oc/catering' text={null} image={Catering} />
       
       
       <div class="space-y-2 space-x-0 md:row-span-1 md:grid md:grid-col-3 md:grid-flow-col md:space-x-2 md:space-y-0 w-75">
-        <HeadShot name="Mostafa Dawoud" title="Room Setup" image={MostafaDawoud} quote="Live for the nights you'll never remember with the friends you'll never forget" />
-        <HeadShot name="Hala Nasr" title="Awards & Certificates" image={HalaNasr} quote="You have to look through the rain to see the rainbow." />
-        <HeadShot name="Sara Talaat" title="Head of Merchandise" image={SaraTalaat} quote="Life is what happens to you while you're busy making other plans." />
+        <HeadShot name="Mostafa Dawoud" title="Room Setup" image={MostafaDawoud} quote="" />
+        <HeadShot name="Hala Nasr" title="Awards & Certificates" image={HalaNasr} quote="" />
+        <HeadShot name="Sara Talaat" title="Head of Merchandise" image={SaraTalaat} quote="" />
       </div>
   </main>

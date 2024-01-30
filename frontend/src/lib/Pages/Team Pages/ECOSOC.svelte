@@ -30,9 +30,9 @@
         <hr class="mb-2 mt-4">  
     </header>
     <section class="p-10 space-y-6">
-        <GroupSection link={null} noReadMe={true} header="Alaa Hashem - Chair of ECOSOC B" text={null} image={AlaaHashem} />
+        <GroupSection link={null} noReadMe={true} header="Alaa Hashem - Chair of ECOSOC B" text="Hello everyone, I’m Alaa and will be chair of ECOSOC B. This is my second time chairing, my first was ALSMUN I where I was co-chair of SC. I think you will all find ECOSOC very entertaining because it covers a wide range of interesting topics. Although my MUN journey ends here, I hope many of you begin yours." image={AlaaHashem} />
         <section class="space-x-0 space-y-2 md:grid md:grid-flow-col md:grid-cols-2 md:space-x-3 md:space-y-0">
-            <HeadShot name="Habiba Raslan" title="Co-Chair" image={HabibaRaslan} quote="With determination anything is achievable"/>
-            <HeadShot name="Mahmoud Helmy" title="Co-Chair" image={MahmoudHelmy} quote="Sometimes all you need is a little imagination"/>
+            <HeadShot name="Habiba Raslan" title="Co-Chair" image={HabibaRaslan} quote=""/>
+            <HeadShot name="Mahmoud Helmy" title="Co-Chair" image={MahmoudHelmy} quote=""/>
         </section>
     </section>

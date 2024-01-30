@@ -20,7 +20,7 @@
     <section class="p-10 space-y-6">
         <GroupSection link={null} noReadMe={true} header="Karim ElGuindy - Chair of GA A" text={null} image={KarimElguindy} />
         <section class="space-x-0 space-y-2 md:grid md:grid-flow-col md:grid-cols-2 md:space-x-3 md:space-y-0">
-            <HeadShot name="Layla Mourad" title="Co-Chair" image={LaylaMourad} quote="With determination anything is achievable"/>
+            <HeadShot name="Layla Mourad" title="Co-Chair" image={LaylaMourad} quote=""/>
             <HeadShot name="Youssef Sheriff" title="Co-Chair" image={PlaceHolder} quote="Hello everyone my name is Youssef and I'm honoured to help in charing GA A as it is a great committee for topics that are too broad for other committees but still just as crucial to our world."/>
         </section>
     </section>
@@ -32,7 +32,7 @@
     <section class="p-10 space-y-6">
         <GroupSection link={null} noReadMe={true} header="Omar Fazary - Chair of GA B" text="Hello everyone, my name is Omar Elfazary. I'm in grade 12, and I'm honored to be chairing GA B once more. I have a strong passion for MUN, so I'm looking to seeing some fruitful - and heated - debates this year." image={OmarFazary} />
         <section class="space-x-0 space-y-2 md:grid md:grid-flow-col md:grid-cols-2 md:space-x-3 md:space-y-0">
-            <HeadShot name="Malak Shawky" title="Co-Chair" image={MalakShawky} quote="With determination anything is achievable"/>
+            <HeadShot name="Malak Shawky" title="Co-Chair" image={MalakShawky} quote=""/>
             <HeadShot name="Cynthia Ezzi" title="Co-Chair" image={CynthiaEzzi} quote="Hi everyone! My name is Cynthia Ezzi. I'm in grade 10 and so pleased to be co - chairing for the first time in General Assembly B. I'm so excited to meet you all at the conference!"/>
         </section>
     </section>
