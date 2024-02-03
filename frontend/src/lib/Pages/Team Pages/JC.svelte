@@ -1,13 +1,13 @@
 <script lang="ts">
     import NavBar from "../../Components/NavBar.svelte";
     import HeadShot from "../../Components/HeadShot.svelte";
-    import MalakAbdallah from "../../../assets/AC/JC/Malak Abdalla - JC chair.jpg"
-    import DalilaMobarak from "../../../assets/AC/JC/Dalila Mobarak - JC co chair.jpg" 
-    import KhadijaDarrag from "../../../assets/AC/JC/Khadija Darrag - Junior Committee Co chair.jpg"
+    import MalakAbdallah from "../../../assets/AC/JC/MalakAbdalla.jpg"
+    import DalilaMobarak from "../../../assets/AC/JC/DalilaMobarak.jpg" 
+    import KhadijaDarrag from "../../../assets/AC/JC/KhadijaDarrag.jpg"
     import GroupSection from "../../Components/GroupSection.svelte";
-    import YousefKhater from"../../../assets/AC/JC/Yousef Khater.jpg";
-    import AdamSalem from"../../../assets/AC/JC/Adam Salem.jpg";
-    import JoudKhaled from "../../../assets/AC/JC/Joud Khaled.jpg"
+    import YousefKhater from"../../../assets/AC/JC/YousefKhater.jpg";
+    import AdamSalem from"../../../assets/AC/JC/AdamSalem.jpg";
+    import JoudKhaled from "../../../assets/AC/JC/JoudKhaled.jpg"
   </script>
   
       <NavBar />

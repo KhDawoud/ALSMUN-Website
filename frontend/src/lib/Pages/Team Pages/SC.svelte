@@ -1,8 +1,8 @@
 <script lang="ts">
     import NavBar from "../../Components/NavBar.svelte";
     import HeadShot from "../../Components/HeadShot.svelte";
-    import NourEldinNassar from "../../../assets/AC/SC/Nour eldin - Chair SC.jpg"
-    import AhmedFraige from "../../../assets/AC/SC/Ahmed Fraige - Security Council cochair.jpg"
+    import NourEldinNassar from "../../../assets/AC/SC/Noureldin.jpg"
+    import AhmedFraige from "../../../assets/AC/SC/AhmedFraige.jpg"
   </script>
 
     <NavBar />

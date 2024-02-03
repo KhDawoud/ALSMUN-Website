@@ -1,9 +1,9 @@
 <script lang="ts">
-  import AliElGuindy from '../../../assets/OC/SoftwareTeam/Ali Guindy.jpg';
+  import AliElGuindy from '../../../assets/OC/SoftwareTeam/AliGuindy.jpg';
   import NavBar from "../../Components/NavBar.svelte";
-  import KhaledDawoud from '../../../assets/OC/SoftwareTeam/Khaled Dawoud2.jpg';
+  import KhaledDawoud from '../../../assets/OC/SoftwareTeam/KhaledDawoud2.jpg';
   import HeadShot from "../../Components/HeadShot.svelte";
-  import MuhammedElKhedr from '../../../assets/OC/SoftwareTeam/Muhammed elkhedr.jpg';
+  import MuhammedElKhedr from '../../../assets/OC/SoftwareTeam/Muhammedelkhedr.jpg';
   import GroupSection from '../../Components/GroupSection.svelte';
 
 

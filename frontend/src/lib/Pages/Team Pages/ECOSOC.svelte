@@ -1,12 +1,12 @@
 <script lang="ts">
     import NavBar from "../../Components/NavBar.svelte";
     import HeadShot from "../../Components/HeadShot.svelte";
-    import OmarEzzi from "../../../assets/AC/ECOSOC-A/Omar Elezzi- ECOSOC A chair.jpg"
-    import SalmaShayal from "../../../assets/AC/ECOSOC-A/Salma Shayal - ECOSOC A cochair.jpg"
-    import AdamYoussef from "../../../assets/AC/ECOSOC-A/Adam Youssef - ECOSOC A co chair.jpg"
-    import AlaaHashem from "../../../assets/AC/ECOSOC-B/Alaa Hashem - Chair of ECOSOC B.jpg"
-    import HabibaRaslan from "../../../assets/AC/ECOSOC-B/Habiba Raslan - ECOSOC B co chair.jpg"
-    import MahmoudHelmy from "../../../assets/AC/ECOSOC-B/Mahmoud Helmy- ECOSOC B co chair.jpg"
+    import OmarEzzi from "../../../assets/AC/ECOSOC-A/OmarElezzi.jpg"
+    import SalmaShayal from "../../../assets/AC/ECOSOC-A/SalmaShayal.jpg"
+    import AdamYoussef from "../../../assets/AC/ECOSOC-A/AdamYoussef.jpg"
+    import AlaaHashem from "../../../assets/AC/ECOSOC-B/AlaaHashem.jpg"
+    import HabibaRaslan from "../../../assets/AC/ECOSOC-B/HabibaRaslan.jpg"
+    import MahmoudHelmy from "../../../assets/AC/ECOSOC-B/MahmoudHelmy.jpg"
     import GroupSection from "../../Components/GroupSection.svelte";
 </script>
   

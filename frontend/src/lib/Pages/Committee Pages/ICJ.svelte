@@ -1,6 +1,6 @@
 <script lang="ts">
     import NavBar from "../../Components/NavBar.svelte";
-    import TopicA from '../../../assets/Committees/ICJ/Topic 1.jpg';
+    import TopicA from '../../../assets/Committees/ICJ/Topic1.jpg';
     import InfoText from "../../Components/InfoText.svelte";
   </script>
   

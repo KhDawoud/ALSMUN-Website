@@ -2,12 +2,12 @@
     import NavBar from "../../Components/NavBar.svelte";
     import GroupSection from "../../Components/GroupSection.svelte";
     import HeadShot from "../../Components/HeadShot.svelte";
-    import KarimElguindy from "../../../assets/AC/GA-A/Karim Elguindy- GA A chair.jpg"
-    import LaylaMourad from "../../../assets/AC/GA-A/Layla Mourad - GA A cochair.jpg"
-    import MalakShawky from "../../../assets/AC/GA-B/Malak Shawky-GAB cochair.jpg"
-    import CynthiaEzzi from "../../../assets/AC/GA-B/Cynthia Ezzi - GAB  co chair.jpg"
-    import OmarFazary from "../../../assets/AC/GA-B/Omar Fazary.jpg"
-    import YoussefSherif from "../../../assets/AC/GA-A/Youssef Sherif.jpg"
+    import KarimElguindy from "../../../assets/AC/GA-A/KarimElguindy.jpg"
+    import LaylaMourad from "../../../assets/AC/GA-A/LaylaMourad.jpg"
+    import MalakShawky from "../../../assets/AC/GA-B/MalakShawky.jpg"
+    import CynthiaEzzi from "../../../assets/AC/GA-B/CynthiaEzzi.jpg"
+    import OmarFazary from "../../../assets/AC/GA-B/OmarFazary.jpg"
+    import YoussefSherif from "../../../assets/AC/GA-A/YoussefSherif.jpg"
 </script>
   
 

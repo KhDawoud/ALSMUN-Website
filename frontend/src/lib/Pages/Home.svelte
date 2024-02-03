@@ -8,7 +8,7 @@
     import Schedule1 from "../../assets/Home/Schedule1.jpg";
     import Schedule2 from "../../assets/Home/Schedule2.jpg";
     import Schedule3 from "../../assets/Home/Schedule3.jpg";
-    import RahmaZein from "../../assets/Home/Rahma Zein.jpg"
+    import RahmaZein from "../../assets/Home/RahmaZein.jpg"
     let images = [Schedule1, Schedule2, Schedule3]
 </script>
 

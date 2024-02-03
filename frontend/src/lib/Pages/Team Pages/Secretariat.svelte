@@ -1,9 +1,9 @@
 <script lang="ts">
     import NavBar from "../../Components/NavBar.svelte";
-    import JazminBlaj from "../../../assets/Secretariat/Jazmin Blaj.jpg"
-    import MariamElRamly from "../../../assets/Secretariat/Mariam Elramly.jpg"
-    import IbrahimZineldin from "../../../assets/Secretariat/Ibrahim Zineldin - DSG.jpg"
-    import AdhamFayed from "../../../assets/Secretariat/Adham Fayed - USG.jpg"
+    import JazminBlaj from "../../../assets/Secretariat/JazminBlaj.jpg"
+    import MariamElRamly from "../../../assets/Secretariat/MariamElramly.jpg"
+    import IbrahimZineldin from "../../../assets/Secretariat/IbrahimZineldin.jpg"
+    import AdhamFayed from "../../../assets/Secretariat/AdhamFayed.jpg"
     import GroupSection from "../../Components/GroupSection.svelte";
     import JBSignature from "../../../assets/Signatures/JB.png";
     import IZSignature from "../../../assets/Signatures/IZ.png";

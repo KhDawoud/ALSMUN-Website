@@ -1,8 +1,8 @@
 <script lang="ts">
     import NavBar from "../../Components/NavBar.svelte";
     import GroupSection from "../../Components/GroupSection.svelte";
-    import YoussefElbarbary from "../../../assets/OC/Catering/Youssef ElBarbary - Catering.jpg"
-    import LaylaElAbd from "../../../assets/OC/Catering/Layla El Abd - catering.jpg"
+    import YoussefElbarbary from "../../../assets/OC/Catering/YoussefElBarbary.jpg"
+    import LaylaElAbd from "../../../assets/OC/Catering/LaylaElAbd.jpg"
     import ZeinaShalaby from "../../../assets/Icons/Default_pfp.svg"
 </script>
 

@@ -1,18 +1,17 @@
 <script lang="ts">
     import NavBar from "../../Components/NavBar.svelte";
     import HeadShot from "../../Components/HeadShot.svelte";
-    import SelimElMeadawy from "../../../assets/OC/Media/Selim Meadawy - Media and Photography.jpg";
+    import SelimElMeadawy from "../../../assets/OC/Media/SelimMeadawy.jpg";
     import MagdiBittar from "../../../assets/OC/Media/MagdiBittar.jpg";
-    import HusseinNamek from "../../../assets/Oc/Media/Hussein Namek.jpg";
-    import JudiNassar from "../../../assets/Oc/Media/Judi Nassar.jpg";
-    import JanaShahin from "../../../assets/Oc/Media/Jana Shahin.jpg";
-    import HabibaKhalil from "../../../assets/Oc/Media/Habiba Khalil.jpg";
-    import AlineWahba from "../../../assets/Oc/Media/Aline Wahba.jpg";
-    import SherineWally from "../../../assets/Oc/Media/Sherine Wally.jpg";
-    import TaliaSeoudi from "../../../assets/Oc/Media/Talia Seoudi.jpg";
-    import FarahIbrahim from "../../../assets/OC/Media/Farah Ibrahim.jpg"
+    import HusseinNamek from "../../../assets/Oc/Media/HusseinNamek.jpg";
+    import JudiNassar from "../../../assets/Oc/Media/JudiNassar.jpg";
+    import JanaShahin from "../../../assets/Oc/Media/JanaShahin.jpg";
+    import HabibaKhalil from "../../../assets/Oc/Media/HabibaKhalil.jpg";
+    import AlineWahba from "../../../assets/Oc/Media/AlineWahba.jpg";
+    import SherineWally from "../../../assets/Oc/Media/SherineWally.jpg";
+    import TaliaSeoudi from "../../../assets/Oc/Media/TaliaSeoudi.jpg";
+    import FarahIbrahim from "../../../assets/OC/Media/FarahIbrahim.jpg"
     import PlaceHolder from "../../../assets/Icons/Default_pfp.svg";
-    import GroupSection from "../../Components/GroupSection.svelte";
 </script>
   
 

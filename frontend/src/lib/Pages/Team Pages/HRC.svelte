@@ -2,12 +2,12 @@
     import NavBar from "../../Components/NavBar.svelte";
     import GroupSection from "../../Components/GroupSection.svelte";
     import HeadShot from "../../Components/HeadShot.svelte";
-    import SalmaSaber from "../../../assets/AC/HRC-A/Salma Saber - HRC A chair.jpg"
-    import MayaDaader from "../../../assets/AC/HRC-A/Maya Daader - HRC A co chair.jpg"
-    import ZiadMedhat from "../../../assets/AC/HRC-A/Ziad Medhat - HRC A co chair.jpg"
-    import OmarElHefnawy from "../../../assets/AC/HRC-B/Omar Elhefnawy - HRC B chair.jpg"
-    import NourSalah from "../../../assets/AC/HRC-B/Nour Salah - HRC B co chair.jpg"
-    import HabibaKholeif from "../../../assets/AC/HRC-B/Habiba Kholeif - HRC B co chair.jpg"
+    import SalmaSaber from "../../../assets/AC/HRC-A/SalmaSaber.jpg"
+    import MayaDaader from "../../../assets/AC/HRC-A/MayaDaader.jpg"
+    import ZiadMedhat from "../../../assets/AC/HRC-A/ZiadMedhat.jpg"
+    import OmarElHefnawy from "../../../assets/AC/HRC-B/OmarElhefnawy.jpg"
+    import NourSalah from "../../../assets/AC/HRC-B/NourSalah.jpg"
+    import HabibaKholeif from "../../../assets/AC/HRC-B/HabibaKholeif.jpg"
 </script>
   
 

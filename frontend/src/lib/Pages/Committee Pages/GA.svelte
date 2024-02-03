@@ -1,8 +1,8 @@
 <script lang="ts">
   import NavBar from "../../Components/NavBar.svelte";
   import InfoText from "../../Components/InfoText.svelte";
-  import TopicA from '../../../assets/Committees/GA/Topic 1.jpg';
-  import TopicB from '../../../assets/Committees/GA/Topic 2.jpg'
+  import TopicA from '../../../assets/Committees/GA/Topic1.jpg';
+  import TopicB from '../../../assets/Committees/GA/Topic2.jpg'
 
 </script>
 

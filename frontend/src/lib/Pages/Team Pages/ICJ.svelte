@@ -2,9 +2,9 @@
     import NavBar from "../../Components/NavBar.svelte";
     import GroupSection from "../../Components/GroupSection.svelte";
     import HeadShot from "../../Components/HeadShot.svelte";
-    import OmarGabr from "../../../assets/AC/ICJ/Omar Gabr - ICJ chair.jpg"
-    import LilyAmmar from "../../../assets/AC/ICJ/Lily Ammar - ICJ cochair.jpg"
-    import JalilaAbulmagd from "../../../assets/AC/ICJ/Jalila Abulmagd- ICJ cochair.jpg"
+    import OmarGabr from "../../../assets/AC/ICJ/OmarGabr.jpg"
+    import LilyAmmar from "../../../assets/AC/ICJ/LilyAmmar.jpg"
+    import JalilaAbulmagd from "../../../assets/AC/ICJ/JalilaAbulmagd.jpg"
 </script>
   
 
